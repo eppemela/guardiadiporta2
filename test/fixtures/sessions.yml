@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start: 2017-05-24 18:57:49
+  end: 2017-05-24 18:57:49
+  duration: 1
+  open: false
+  station: one
+
+two:
+  start: 2017-05-24 18:57:49
+  end: 2017-05-24 18:57:49
+  duration: 1
+  open: false
+  station: two

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  mac_addr: MyString
+  last_seen: 2017-05-24 18:55:09
+  ignore: false
+
+two:
+  name: MyString
+  mac_addr: MyString
+  last_seen: 2017-05-24 18:55:09
+  ignore: false
