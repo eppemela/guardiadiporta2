@@ -51,6 +51,7 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    chartkick (2.2.4)
     childprocess (0.7.0)
       ffi (~> 1.0, >= 1.0.11)
     coderay (1.1.1)
@@ -69,6 +70,8 @@ GEM
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    groupdate (3.2.0)
+      activesupport (>= 3)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     i18n (0.8.1)
@@ -217,7 +220,9 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   capybara (~> 2.13)
+  chartkick
   coffee-rails (~> 4.2)
+  groupdate
   jquery-rails
   kaminari
   listen (>= 3.0.5, < 3.2)

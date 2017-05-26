@@ -5,7 +5,7 @@ class StationsController < ApplicationController
   # GET /stations.json
   def index
     @stations = if params[:term]
-      Station.search(params[:term]).page 
+      Station.search(params[:term]).page
     else
       Station.order(last_seen: :desc).page params[:page]
     end
@@ -15,8 +15,9 @@ class StationsController < ApplicationController
   # GET /stations/1.json
   def show
     @station = Station.find(params[:id])
+    ActiveRecord::Base.default_timezone = :utc
     @mta = Session.where(station_id: @station.id).group_by_hour_of_day(:created_at, format: "%l %P").count
-
+    ActiveRecord::Base.default_timezone = :local
     respond_to do |format|
       format.html { render :show }
       format.json { render json: @station }

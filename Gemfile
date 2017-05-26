@@ -37,6 +37,9 @@ gem 'awesome_print'
 gem 'jquery-rails'
 gem 'slim-rails'
 gem 'kaminari'
+gem 'chartkick'
+gem 'groupdate'
+
 
 
 group :development, :test do
