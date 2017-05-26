@@ -4,7 +4,7 @@ class StationsController < ApplicationController
   # GET /stations
   # GET /stations.json
   def index
-    @stations = Station.all
+    @stations = Station.order(:last_seen).page params[:page]
   end
 
   # GET /stations/1

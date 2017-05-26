@@ -1,0 +1,15 @@
+nav
+  .nav-wrapper
+    form
+      .input-field
+        input#search required="" type="search" /
+        label.label-icon for="search" 
+          i.material-icons search
+        i.material-icons close
+
+
+.row
+  - @stations.each do |station|
+    = render partial: station
+.row.center-align
+  = paginate @stations 

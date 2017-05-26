@@ -1,0 +1,31 @@
+.col.l4.m6.s12
+  .card.hoverable
+    .card-image
+      = avatar_picture(station.is_female?) 
+      span.card-title= station.name
+    .card-content
+      - if station.ignore?
+        span.new.badge.red data-badge-caption=("disabled")
+      - else 
+        span.new.badge data-badge-caption=("enabled")
+
+      h6
+        | Last seen: 
+        strong.tooltipped data-delay="50" data-position="bottom" data-tooltip=(I18n.l(station.last_seen, format: :short))
+          = time_ago_in_words(station.last_seen)
+          
+          
+
+    .card-action
+      .row.no-margin
+        .col.s4.center-align
+          = link_to station, class: "waves-effect waves-light btn" do
+            i.material-icons account_circle
+        .col.s4.center-align
+          = link_to edit_station_path(station), class: "waves-effect waves-light btn" do
+            i.material-icons edit
+        .col.s4.center-align
+          = link_to station, method: :delete, 
+            data: { confirm: 'Are you sure? The station and its sessions will be lost forever!' }, 
+            class: "waves-effect waves-light btn red darken-1 right-align" do
+            i.material-icons delete

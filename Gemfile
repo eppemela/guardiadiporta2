@@ -36,7 +36,7 @@ gem 'watir'
 gem 'awesome_print'
 gem 'jquery-rails'
 gem 'slim-rails'
-
+gem 'kaminari'
 
 
 group :development, :test do

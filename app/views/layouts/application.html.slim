@@ -10,14 +10,14 @@ html lang="en"
     main.light-background
       nav.primary-color role="navigation" 
         .nav-wrapper.container
-          a#logo-container.brand-logo href="#" 
+          =link_to root_path, class: "logo-container brand-logo" do
             i.material-icons lock
           ul.right.hide-on-med-and-down
-            li
-              a href="#"  Link
+            = content_tag("li", class: is_active?(stations_path))
+              =link_to 'Stations', stations_path
           ul#nav-mobile.side-nav
-            li
-              a href="#"  Link
+            = content_tag("li", class: is_active?(stations_path))
+              =link_to 'Stations', stations_path
           a.button-collapse data-activates="nav-mobile" href="#" 
             i.material-icons menu
       .container
