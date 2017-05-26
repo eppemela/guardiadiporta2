@@ -45,4 +45,8 @@ class Station < ApplicationRecord
       end
       today_users
   end
+
+  def self.search(term)
+    where('name LIKE ?', "%#{term}%").order('last_seen DESC')
+  end
 end

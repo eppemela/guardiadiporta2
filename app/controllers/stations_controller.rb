@@ -4,7 +4,11 @@ class StationsController < ApplicationController
   # GET /stations
   # GET /stations.json
   def index
-    @stations = Station.order(:last_seen).page params[:page]
+    @stations = if params[:term]
+      Station.search(params[:term]).page 
+    else
+      Station.order(last_seen: :desc).page params[:page]
+    end
   end
 
   # GET /stations/1
@@ -91,6 +95,6 @@ class StationsController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def station_params
-    params.require(:station).permit(:name, :mac_addr, :last_seen, :ignore)
+    params.require(:station).permit(:name, :mac_addr, :last_seen, :ignore, :term)
   end
 end
