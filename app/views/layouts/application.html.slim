@@ -30,4 +30,6 @@ html lang="en"
         .container
           | Made by
           a.white-text.text-lighten-3 href="https://github.com/eppemela/"  Ing.Norante
+    = javascript_include_tag "https://www.gstatic.com/charts/loader.js"
     = javascript_include_tag 'application'
+    = yield :charts_js
