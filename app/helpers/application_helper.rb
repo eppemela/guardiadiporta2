@@ -3,7 +3,7 @@ module ApplicationHelper
     current_page?(path) ? "active" : ""
   end
 
-  def avatar_picture(gender)
+  def avatar_picture(gender, css_class = nil)
     females = ["ade", "elyse", "jenny", "kristy", "laura", "nan", "rachel", "valeria"]
     males = ["chris", "elliot", "matt", "matthew", "patrick", "steve", "tom"]
     case gender
@@ -14,6 +14,6 @@ module ApplicationHelper
     when nil
       picture = [females + males].sample
     end
-    image_tag("avatars/#{picture}")
+    image_tag"avatars/#{picture}", class: css_class
   end
 end

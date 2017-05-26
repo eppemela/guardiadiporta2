@@ -1,1 +1,92 @@
-= column_chart @mta, height: "250px"
+.row
+  .col.s12
+    ul.collection
+      li.collection-item.avatar
+        = avatar_picture(@station.is_female?,"circle")       
+        span.title.bold= @station.name.titleize
+        p
+          |Created on: 
+          strong.tooltipped data-delay="50" data-position="bottom" data-tooltip=(I18n.l(@station.created_at, format: :short))
+            = time_ago_in_words(@station.created_at)
+          br/
+          | Last seen: 
+          strong.tooltipped data-delay="50" data-position="bottom" data-tooltip=(I18n.l(@station.last_seen, format: :short))
+            = time_ago_in_words(@station.last_seen)
+        = link_to edit_station_path(@station), class: "secondary-content" 
+          i.material-icons edit
+      
+      li.collection-item.avatar
+        i.material-icons.circle.cyan loyalty
+        span.title Total entrances
+        p
+          = @all_time_entrances
+          
+      li.collection-item.avatar
+        i.material-icons.circle settings_ethernet
+        span.title Mac Address
+        p
+          = @station.mac_addr
+      
+      li.collection-item.avatar
+        - if @station.ignore?
+          i.material-icons.circle.red visibility_off
+        - else
+          i.material-icons.circle.green visibility
+        span.title Station ignored?
+        p
+          - if @station.ignore?
+            | Yes
+          - else
+            | No
+            
+      li.collection-item.avatar
+        - if @station.is_female?
+          i.material-icons.circle.pink.darken-3 mood_bad
+        - else
+          i.material-icons.circle.cyan.darken-3 mood
+        span.title Gender
+        p
+          - if @station.is_female?
+            | Woman
+          - else
+            | Man
+  
+.row
+  .col.s12.m6.l6
+    .card.no-margin
+      .card-content.blue.darken-2.white-text
+        p.card-stats-title
+          | Entrances
+        h4.card-stats-number= @last_month_entrances
+        p.card-stats-compare
+          span.deep-purple-text.text-lighten-5 this month
+  .col.s12.m6.l6
+    .card.no-margin
+      .card-content.blue.white-text
+        p.card-stats-title
+          | Entrances
+        h4.card-stats-number= @last_year_entrances
+        p.card-stats-compare
+          span.blue-grey-text.text-lighten-5 this year
+
+.row
+  .col.s12.m6.l2
+    .card.no-margin
+      .card-content.cyan.darken-2.white-text
+        p.card-stats-title
+          | Entrances
+        h4.card-stats-number= @this_week_entrances
+        p.card-stats-compare
+          span.green-text.text-lighten-5 this week
+  .col.s12.m6.l10
+    = column_chart @this_week_entrances, height: "215px", colors: ["#00796b"]     
+
+.row
+  .col.s12.m6.l10
+    = column_chart @mta, height: "215px", colors: ["#4db6ac"]
+  .col.s12.m6.l2
+    .card.no-margin
+      .card-content.cyan.lighten-2.white-text
+        p.card-stats-title
+          | Average arrival time
+        h4.card-stats-number= @mta.max_by{|k,v| v}[0]

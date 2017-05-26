@@ -16,8 +16,14 @@ class StationsController < ApplicationController
   def show
     @station = Station.find(params[:id])
     ActiveRecord::Base.default_timezone = :utc
-    @mta = Session.where(station_id: @station.id).group_by_hour_of_day(:created_at, format: "%l %P").count
-    ActiveRecord::Base.default_timezone = :local
+    @mta = @station.sessions.group_by_hour_of_day(:created_at, format: "%l %P").count
+    @this_week_entrances = @station.sessions
+      .group_by_day(:created_at, format: "%d/%m", range: Date.today.at_beginning_of_week..Time.now).count.sum{|k,v| v}
+    @last_month_entrances = @station.sessions
+      .group_by_month(:created_at, format: "%B/%y", range: Date.today.at_beginning_of_month..Time.now).count.sum{|k,v| v}
+    @last_year_entrances = @station.sessions
+      .group_by_year(:created_at, format: "%Y", range: Date.today.at_beginning_of_year..Time.now).count.sum{|k,v| v}
+    @all_time_entrances = @station.sessions.group_by_year(:created_at).count.sum {|k,v| v }
     respond_to do |format|
       format.html { render :show }
       format.json { render json: @station }
