@@ -23,11 +23,10 @@ class Station < ApplicationRecord
     find_by_mac_addr(mac)
   end
 
-
-  def self.find_or_create(mac_address, last_time_seen)
+  def self.find_or_create(mac_address, last_time_seen, original_name)
     attributes = {
-      mac_addr: mac_address,
-      last_seen: last_time_seen
+      last_seen: last_time_seen,
+      original_name: original_name
     }
 
     if (( existing_station = get(mac_address) ))
