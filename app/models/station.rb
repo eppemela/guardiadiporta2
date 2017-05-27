@@ -1,5 +1,15 @@
 class Station < ApplicationRecord
 
+  include PgSearch
+  pg_search_scope :full_text_search,
+  :against => {
+    :name => 'A',
+    :mac_addr => 'B'
+  },
+  :using => {
+    :tsearch => {:prefix => true}
+  }
+
   scope :not_ignored, -> { where(ignore: false) }
   scope :present, -> { not_ignored.where("last_seen >= ?", 5.minutes.ago ) }
   scope :not_present, -> {not_ignored.where("last_seen < ?", 10.minutes.ago) }
@@ -44,9 +54,5 @@ class Station < ApplicationRecord
         })
       end
       today_users
-  end
-
-  def self.search(term)
-    where('name LIKE ?', "%#{term}%").order('last_seen DESC')
   end
 end

@@ -12,8 +12,8 @@
       h6
         | Last seen: 
         strong.tooltipped data-delay="50" data-position="bottom" data-tooltip=(I18n.l(station.last_seen, format: :short))
-          = time_ago_in_words(station.last_seen)
-          
+          = time_ago_in_words(station.last_seen)+ " "
+        | ago
           
 
     .card-action

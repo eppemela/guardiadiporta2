@@ -38,7 +38,7 @@ gem 'slim-rails'
 gem 'kaminari'
 gem 'chartkick'
 gem 'groupdate'
-
+gem 'pg_search'
 
 
 group :development, :test do
