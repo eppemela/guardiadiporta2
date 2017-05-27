@@ -17,6 +17,8 @@ class Station < ApplicationRecord
 
   has_many :sessions, dependent: :destroy
 
+  validates :mac_addr, presence: true
+
   def self.get(mac)
     find_by_mac_addr(mac)
   end

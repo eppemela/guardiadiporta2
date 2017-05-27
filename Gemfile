@@ -39,7 +39,8 @@ gem 'kaminari'
 gem 'chartkick'
 gem 'groupdate'
 gem 'pg_search'
-
+gem 'simple_form'
+gem 'materialize-form'
 
 group :development, :test do
   gem 'pry-rails'

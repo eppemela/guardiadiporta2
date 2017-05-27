@@ -15,3 +15,4 @@
 //= require materialize-sprockets
 //= require_tree .
 //= require chartkick
+//= require materialize-form

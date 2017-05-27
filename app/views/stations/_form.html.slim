@@ -1,0 +1,37 @@
+.row  
+  .col.s12
+    = simple_form_for @station do |f|
+      .row
+        .input-field.col.m6.s12
+          i.material-icons.prefix account_circle
+          = f.input_field :name, wrapper_html: { class: 'm6 s12' }
+          = f.label 'Name', class: 'active'
+        .input-field.col.m6.s12
+          i.material-icons.prefix settings_ethernet
+          = f.input_field :mac_addr,  wrapper_html: { class: 'm6 s12' }
+          = f.label 'MAC Address', class: 'active'
+      .row
+        .input-field.col.m6.s6.p-b-15
+          |Ignore station?
+          .switch
+            label.m-t-15
+              |No
+              = f.input_field :ignore
+              span.lever
+              |Yes
+        .input-field.col.m6.s6.p-b-15
+          |Station gender
+          .switch
+            label.m-t-15
+              |Man
+              = f.input_field :is_female
+              span.lever
+              |Woman
+              
+      .row.p-t-15
+        .input-field.col.m6.s12
+          = f.button :submit, "Save station", class: "waves-effect waves-light"
+        .input-field.col.m6.s12
+          =link_to station_path(@station), class: "waves-effec waves-light btn red" do
+            i.material-icons.left fast_rewind
+            |Don't save
