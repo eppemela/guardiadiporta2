@@ -17,7 +17,10 @@ class RestoreSessions
     model_class.destroy_all
     records.each do |record|
       attributes = map_attributes(record)
-      station = model_class.create!(attributes)
+      unless attributes['station'].nil?
+        model_class.create!(attributes)
+      end
+
     end
   end
 
@@ -28,8 +31,11 @@ class RestoreSessions
   def map_attributes(record)
     {}.tap do |attributes|
       attributes['open'] = convert_boolean("#{record['open']}")
-      attributes['station'] = Station.find("#{record['station_id']}")
-
+      begin
+        attributes['station'] = Station.find("#{record['station_id']}")
+      rescue ActiveRecord::RecordNotFound
+        attributes['station'] = nil
+      end
       record.keys.each do |key|
         attribute = ATTRIBUTES_MAPPING[key]
         attributes[attribute[0]] = record[key].send("to_#{attribute[1]}") if attribute.present?

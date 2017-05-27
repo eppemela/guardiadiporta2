@@ -18,7 +18,9 @@ class RestoreStations
     model_class.destroy_all
     records.each do |record|
       attributes = map_attributes(record)
-      station = model_class.create!(attributes)
+      unless attributes['mac_addr'] == ""
+        model_class.create!(attributes)
+      end
     end
   end
 
