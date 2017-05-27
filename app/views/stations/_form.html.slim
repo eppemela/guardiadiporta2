@@ -7,6 +7,11 @@
           = f.input_field :name, wrapper_html: { class: 'm6 s12' }
           = f.label 'Name', class: 'active'
         .input-field.col.m6.s12
+          i.material-icons.prefix perm_identity
+          = f.input_field :original_name,  wrapper_html: { class: 'm6 s12' }
+          = f.label 'Original name', class: 'active'
+      .row
+        .input-field.col.m6.s12
           i.material-icons.prefix settings_ethernet
           = f.input_field :mac_addr,  wrapper_html: { class: 'm6 s12' }
           = f.label 'MAC Address', class: 'active'

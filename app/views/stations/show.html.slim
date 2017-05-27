@@ -14,13 +14,19 @@
             = time_ago_in_words(@station.last_seen)
         = link_to edit_station_path(@station), class: "secondary-content" 
           i.material-icons edit
+
+      li.collection-item.avatar
+        i.material-icons.circle.light-blue perm_identity
+        span.title Original Name
+        p
+          = @station.original_name
       
       li.collection-item.avatar
         i.material-icons.circle.cyan loyalty
         span.title Total entrances
         p
           = @all_time_entrances
-          
+                    
       li.collection-item.avatar
         i.material-icons.circle settings_ethernet
         span.title Mac Address
