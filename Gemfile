@@ -41,6 +41,7 @@ gem 'groupdate'
 gem 'pg_search'
 gem 'simple_form'
 gem 'materialize-form'
+gem 'whenever', :require => false
 
 group :development, :test do
   gem 'pry-rails'
