@@ -4,6 +4,7 @@ class Session < ApplicationRecord
   scope :open, -> { where(open: true) }
   scope :closed, -> { where(open: false) }
   scope :opened_today, -> { where("start >= ?", Date.today).order(start: :asc) }
+  scope :at_least_10_minutes, -> { where("duration >= ?", 600)}
 
   def self.get(station_id)
     where(station_id: station_id, open: true)

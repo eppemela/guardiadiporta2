@@ -1,15 +1,16 @@
-- station = Station.all.sample
+/ - station = Station.all.sample
+= p @cane
 .timeline-event
   .card.timeline-content
     .card-image
-      = avatar_picture(station.is_female?) 
+      = avatar_picture(@station.is_female?) 
     .card-content
-      span.card-title= station.formatted_name
+      span.card-title= @station.formatted_name
       p
         | Get in: 
         / | Get out:
         strong
-          = I18n.l(station.last_seen, format: :time_short)
+          = I18n.l(@station.last_seen, format: :time_short)
   .timeline-badge.teal.darken-1.white-text
     i.material-icons lock_open
   / .timeline-badge.red.darken-1.white-text

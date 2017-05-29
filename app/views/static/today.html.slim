@@ -1,3 +1,11 @@
 .timeline
-  - 5.times do
-    = render partial: 'timeline_event'
+  /= p @today_sessions
+  / - 5.times do
+  /   = render partial: 'timeline_event'
+  / - @today_sessions.each do |sess| 
+  /   = p sess[0].last_seen
+  - @today_sessions.each do |sess|
+    /= render 'timeline_event', object: sess[:station]
+    = p @today_sessions[:station]
+    = p @today_sessions[:sessions]
+    br /
