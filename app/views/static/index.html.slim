@@ -2,7 +2,7 @@
   .col.s12.m4.l4
     #flight-card.card
       .card-header.teal.darken-1
-        .card-title
+        .card-title.center-align
           h4.flight-card-title First to get in
           p.flight-card-date= I18n.l(Date.today, format: :short)
       .card-content-bg.white-text
@@ -15,7 +15,7 @@
   .col.s12.m4.l4
     #flight-card.card
       .card-header.light-blue.darken-1
-        .card-title
+        .card-title.center-align
           h4.flight-card-title Last to get out
           p.flight-card-date= I18n.l(Date.today, format: :short)
       .card-content-blue-bg.white-text
@@ -28,7 +28,7 @@
   .col.s12.m4.l4
     #flight-card.card
       .card-header.cyan.darken-1
-        .card-title
+        .card-title.center-align
           h4.flight-card-title Total daily visits
           p.flight-card-date= I18n.l(Date.today, format: :short)
       .card-content-cyan-bg.white-text
@@ -40,10 +40,11 @@
 
 
 - if @present_stations.any?
-  - @present_stations.each do |station|
-    .row
-      .col.s12
-        ul.collection
+  .row
+    h5.flight-card-title.center-align Currently present stations
+    .col.s12
+      ul.collection
+        - @present_stations.each do |station|  
           li.collection-item.avatar
             = avatar_picture(station[:station].is_female?,"circle")       
             span.title.bold= station[:station].formatted_name.titleize
