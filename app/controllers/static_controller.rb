@@ -1,7 +1,7 @@
 class StaticController < ApplicationController
   def index
-    # @present_stations = Station.today_visits
-    #
+    @present_stations = Station.today_visits
+
     unless Session.opened_today.empty?
       first_in_hash = {
         name:  Session.opened_today.first.station.name,
@@ -34,8 +34,8 @@ class StaticController < ApplicationController
       }
     end
     @last_out = last_out_hash
-    #
-    # @total_visits = Session.today.group(:station_id)
+
+    @total_visits = Session.joins(:station).opened_today.pluck(:station_id).uniq.count || 0
 
   end
 

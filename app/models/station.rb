@@ -46,7 +46,7 @@ class Station < ApplicationRecord
     present.each do |stat|
       tot_time = 0
       stat.sessions.opened_today.each do |sess|
-        sess.duration.nil? ? duration = (sess.start - Time.now) : duration = sess.duration
+        sess.duration.nil? ? duration = (Time.now - sess.start) : duration = sess.duration
         tot_time += duration
       end
       today_users.push({
@@ -55,5 +55,17 @@ class Station < ApplicationRecord
         })
       end
       today_users
+  end
+
+  def formatted_name
+    if name.nil?
+      if original_name.nil?
+        "Unknown"
+      else
+        original_name
+      end
+    else
+      name
+    end
   end
 end

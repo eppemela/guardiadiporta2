@@ -1,5 +1,5 @@
 .row
-  .col.s12.m6.l6
+  .col.s12.m4.l4
     #flight-card.card
       .card-header.teal.darken-1
         .card-title
@@ -7,19 +7,12 @@
           p.flight-card-date= I18n.l(Date.today, format: :short)
       .card-content-bg.white-text
         .card-content
-          .row.m-0
-            .col.s5.m5.l5.center-align            
-            .col.s2.m2.l2.center-align
-              i.material-icons.medium lock_open
-            .col.s5.m5.l5.center-align
-          .row
-            .col.s5.m5.l5.center-align            
-            .col.s2.m2.l2.center-align.p-0
-              h4= @first_in[:name]
-              p.ultra-small= @first_in[:arrival_time]
-            .col.s5.m5.l5.center-align
-
-  .col.s12.m6.l6
+          .center-align
+            i.material-icons.medium lock_open  
+            h4= @first_in[:name]
+            p.ultra-small= @first_in[:arrival_time]
+        
+  .col.s12.m4.l4
     #flight-card.card
       .card-header.light-blue.darken-1
         .card-title
@@ -27,14 +20,36 @@
           p.flight-card-date= I18n.l(Date.today, format: :short)
       .card-content-blue-bg.white-text
         .card-content
-          .row.m-0
-            .col.s5.m5.l5.center-align            
-            .col.s2.m2.l2.center-align
-              i.material-icons.medium lock_outline
-            .col.s5.m5.l5.center-align
-          .row
-            .col.s5.m5.l5.center-align            
-            .col.s2.m2.l2.center-align.p-0
-              h4= @last_out[:name]
-              p.ultra-small= @last_out[:leaving_time]
-            .col.s5.m5.l5.center-align
+          .center-align
+            i.material-icons.medium lock_outline
+            h4= @last_out[:name]
+            p.ultra-small= @last_out[:leaving_time]
+
+  .col.s12.m4.l4
+    #flight-card.card
+      .card-header.cyan.darken-1
+        .card-title
+          h4.flight-card-title Total daily visits
+          p.flight-card-date= I18n.l(Date.today, format: :short)
+      .card-content-cyan-bg.white-text
+        .card-content
+          .center-align
+            i.material-icons.medium group
+            h4= @total_visits
+            p.ultra-small so far
+
+
+- if @present_stations.any?
+  - @present_stations.each do |station|
+    .row
+      .col.s12
+        ul.collection
+          li.collection-item.avatar
+            = avatar_picture(station[:station].is_female?,"circle")       
+            span.title.bold= station[:station].formatted_name.titleize
+            p
+              |Total time: 
+              strong.tooltipped data-delay="50" data-position="bottom" data-tooltip=(humanize_seconds(station[:total_time]))
+                = humanize_seconds(station[:total_time])
+            = link_to station_path(station[:station]), class: "secondary-content" 
+              i.material-icons exit_to_app
