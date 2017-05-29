@@ -40,6 +40,6 @@ class StaticController < ApplicationController
   end
 
   def today
-    @today_sessions = Session.today_timeline
+    #@today_sessions = Session.today_timeline
   end
 end
