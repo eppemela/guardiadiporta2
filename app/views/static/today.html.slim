@@ -1,19 +1,20 @@
+h5.blue-grey-text.darken-1.center-align= I18n.l(Date.today, format: :short)
 .timeline
-  / - 5.times do
-  /   = render partial: 'timeline_event'
-  - @all_sessions.each do |session|
+  - @today_sessions.each do |session|
     .timeline-event
       .card.timeline-content
         .card-image
-          = avatar_picture(session.is_female?) 
+          = avatar_picture(session[:station].is_female?) 
         .card-content
-          span.card-title= session.formatted_name
+          span.card-title 
+            = link_to session[:station].get_name_or_mac_addr, session[:station]
           p
-            | Get in: 
-            / | Get out:
+            = session[:event_type] == "get_in" ? "Get in: " : "Get out: "
             strong
-              = I18n.l(session.last_seen, format: :time_short)
-      .timeline-badge.teal.darken-1.white-text
-        i.material-icons lock_open
-      / .timeline-badge.red.darken-1.white-text
-      /   i.material-icons lock_outline
+              = I18n.l(session[:event_time], format: :time_short)
+      - if session[:event_type] == "get_in"
+        .timeline-badge.teal.darken-1.white-text
+          i.material-icons lock_open
+      - else
+        .timeline-badge.red.darken-1.white-text
+          i.material-icons lock_outline

@@ -28,6 +28,6 @@ class Session < ApplicationRecord
   def self.created_on(day)
     at_least_10_minutes.select do |m|
       (m.start.to_date == day.to_date) && (m.end == nil || m.end.to_date == day.to_date )
-    end#.sort_by {|s| s.start }
+    end
   end
 end

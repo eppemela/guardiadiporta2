@@ -13,9 +13,15 @@ html lang="en"
           =link_to root_path, class: "logo-container brand-logo" do
             i.material-icons lock
           ul.right.hide-on-med-and-down
+            = content_tag("li", class: is_active?(today_path))
+              =link_to 'Today', today_path
             = content_tag("li", class: is_active?(stations_path))
               =link_to 'Stations', stations_path
           ul#nav-mobile.side-nav
+            = content_tag("li", class: is_active?(root_path))
+              =link_to 'Dashboard', root_path
+            = content_tag("li", class: is_active?(today_path))
+              =link_to 'Today', today_path
             = content_tag("li", class: is_active?(stations_path))
               =link_to 'Stations', stations_path
           a.button-collapse data-activates="nav-mobile" href="#" 

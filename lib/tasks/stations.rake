@@ -45,8 +45,10 @@ namespace :stations do
     puts "Updating stations status on database"
     cleaned_clients.each do |c|
       Station.find_or_create(c[1][:mac_addr], Time.now.to_s, c[1][:original_name])
-      unless Station.get(c[1][:mac_addr]).ignore?
-        Session.find_or_create(Station.get(c[1][:mac_addr]).id, Time.now.to_s)
+      unless Station.get(c[1][:mac_addr]).nil?
+        unless Station.get(c[1][:mac_addr]).ignore?
+          Session.find_or_create(Station.get(c[1][:mac_addr]).id, Time.now.to_s)
+        end
       end
     end
 

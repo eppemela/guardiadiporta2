@@ -58,14 +58,11 @@ class Station < ApplicationRecord
   end
 
   def formatted_name
-    if name.nil?
-      if original_name.nil?
-        "Unknown"
-      else
-        original_name
-      end
-    else
-      name
-    end
+    name unless (name.nil? || name.empty?)
+    original_name unless (original_name.nil? || original_name.empty?)
+  end
+
+  def get_name_or_mac_addr
+    formatted_name.nil? ? mac_addr : formatted_name
   end
 end
