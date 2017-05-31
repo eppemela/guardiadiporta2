@@ -40,27 +40,34 @@ class StaticController < ApplicationController
   end
 
   def today
-    all_sessions = {station: nil, sessions: nil}
+    #all_sessions = {station: nil, sessions: nil}
+
+
+    #Questo funziona!
+    #Session.created_on(102.days.ago).group_by{ |i| i.station  }
+
+    @all_sessions = Session.created_on(102.days.ago) #.group_by{ |i| i.station  }
+
     #busy_ranges =  Session.at_least_10_minutes.where(start: (8.months.ago - 1.days)..8.months.ago).map { |period| ExtractRange.new(period).to_range  }
     #results = RangeOperations::Array.simplify(busy_ranges)
     #Session.at_least_10_minutes.where(start: (8.months.ago - 1.days)..8.months.ago).group(:station_id).each do |station|
-    Station.not_ignored.visited_today.each do |station|
-      unless station.sessions.opened_today.empty?
-        busy_ranges = []
-        station.sessions.opened_today.each do |session|
-          if session.end.nil?
-            new_session = Session.new(start: session.start, end: Time.now, station_id: session.station_id)
-            busy_ranges.push(ExtractRange.new(new_session).to_range)
-          else
-            busy_ranges.push(ExtractRange.new(session).to_range)
-          end
-        end
-        results = RangeOperations::Array.simplify(busy_ranges)
-        all_sessions[:station] = station
-        all_sessions[:sessions] = results
-      end
-    end
-    @today_sessions = all_sessions
+    # Station.not_ignored.visited_today.each do |station|
+    #   unless station.sessions.opened_today.empty?
+    #     busy_ranges = []
+    #     station.sessions.opened_today.each do |session|
+    #       if session.end.nil?
+    #         new_session = Session.new(start: session.start, end: Time.now, station_id: session.station_id)
+    #         busy_ranges.push(ExtractRange.new(new_session).to_range)
+    #       else
+    #         busy_ranges.push(ExtractRange.new(session).to_range)
+    #       end
+    #     end
+    #     results = RangeOperations::Array.simplify(busy_ranges)
+    #     all_sessions[:station] = station
+    #     all_sessions[:sessions] = results
+    #   end
+    # end
+    # @today_sessions = all_sessions
     #{"antani"=>[Mon, 29 May 2017 14:38:10 +0200..Mon, 29 May 2017 18:02:49 +0200], "Eppe iPhone5"=>[Mon, 29 May 2017 09:48:49 +0200..Mon, 29 May 2017 10:48:49 +0200, Mon, 29 May 2017 11:58:15 +0200..Mon, 29 May 2017 18:02:49 +0200]}
   end
 end

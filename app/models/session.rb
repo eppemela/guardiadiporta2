@@ -4,7 +4,7 @@ class Session < ApplicationRecord
   scope :open, -> { where(open: true) }
   scope :closed, -> { where(open: false) }
   scope :opened_today, -> { where("start >= ?", Date.today).order(start: :asc) }
-  scope :at_least_10_minutes, -> { where("duration >= ?", 600)}
+  scope :at_least_10_minutes, -> { where("duration >= ?", 600).or(Session.where(duration: nil))  }
 
   def self.get(station_id)
     where(station_id: station_id, open: true)
@@ -20,10 +20,14 @@ class Session < ApplicationRecord
       start: start_time,
       open: true
     }
-
     if (get(station_id).empty?)
       create(attributes_for_creation)
     end
   end
 
+  def self.created_on(day)
+    at_least_10_minutes.select do |m|
+      (m.start.to_date == day.to_date) && (m.end == nil || m.end.to_date == day.to_date )
+    end#.sort_by {|s| s.start }
+  end
 end

@@ -1,11 +1,19 @@
 .timeline
-  /= p @today_sessions
   / - 5.times do
   /   = render partial: 'timeline_event'
-  / - @today_sessions.each do |sess| 
-  /   = p sess[0].last_seen
-  - @today_sessions.each do |sess|
-    /= render 'timeline_event', object: sess[:station]
-    = p @today_sessions[:station]
-    = p @today_sessions[:sessions]
-    br /
+  - @all_sessions.each do |session|
+    .timeline-event
+      .card.timeline-content
+        .card-image
+          = avatar_picture(session.is_female?) 
+        .card-content
+          span.card-title= session.formatted_name
+          p
+            | Get in: 
+            / | Get out:
+            strong
+              = I18n.l(session.last_seen, format: :time_short)
+      .timeline-badge.teal.darken-1.white-text
+        i.material-icons lock_open
+      / .timeline-badge.red.darken-1.white-text
+      /   i.material-icons lock_outline
