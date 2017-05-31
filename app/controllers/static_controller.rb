@@ -40,8 +40,8 @@ class StaticController < ApplicationController
   end
 
   def today
-    get_ins = Session.created_on(Date.today.to_datetime).sort_by{ |i| i.start }
-    get_outs = Session.created_on(Date.today.to_datetime)
+    get_ins = Session.created_on(Date.today.to_datetime)
+    get_outs = get_ins
 
     @today_sessions = []
     get_ins.each do |i|
