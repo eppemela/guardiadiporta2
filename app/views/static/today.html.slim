@@ -1,8 +1,10 @@
+- date_to_inspect = params[:date].to_date.strftime("%Y-%m-%d") if (params[:date].present? && !params[:date].nil?)
 = form_tag(today_path, method: :get) do
   .row
-    .col.s5
-      = date_field_tag :date, params[:date] , class: "datepicker"
-    .col.s7
+    .col.s5.input-field
+      i.material-icons.prefix today
+      = date_field_tag :date, date_to_inspect , class: "datepicker"
+    .col.s7.input-field
       = button_tag "Search a date", class: "waves-effect waves-light btn", :name => nil
 .timeline
   - @today_sessions.each do |session|

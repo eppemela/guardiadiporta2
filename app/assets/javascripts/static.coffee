@@ -15,11 +15,3 @@ $ ->
     closeOnSelect: true
     formatSubmit: 'dd/mm/yyyy'
     format: 'dd/mm/yyyy'
-    onOpen: ->
-      console.log "ciao"
-    onClose: (context) ->
-      console.log 'Just set stuff:', context
-      return
-    onSet: (context) ->
-      console.log 'Just set stuff:', context
-      return
