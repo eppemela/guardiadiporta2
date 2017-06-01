@@ -38,3 +38,4 @@ en:
   date:
     formats:
       short: "%d/%m/%y"
+      picker: "yyyy-MM-dd"

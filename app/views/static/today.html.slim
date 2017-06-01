@@ -1,4 +1,9 @@
-h5.blue-grey-text.darken-1.center-align= I18n.l(Date.today, format: :short)
+= form_tag(today_path, method: :get) do
+  .row
+    .col.s5
+      = date_field_tag :date, params[:date] , class: "datepicker"
+    .col.s7
+      = button_tag "Search a date", class: "waves-effect waves-light btn", :name => nil
 .timeline
   - @today_sessions.each do |session|
     .timeline-event

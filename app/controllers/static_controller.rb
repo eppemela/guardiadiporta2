@@ -40,7 +40,17 @@ class StaticController < ApplicationController
   end
 
   def today
-    get_ins = Session.created_on(Date.today.to_datetime)
+    if params[:date]
+      if params[:date].empty?
+        date_to_inspect = Date.today.to_datetime
+      else
+        date_to_inspect = params[:date].to_datetime
+      end
+    else
+      date_to_inspect = Date.today.to_datetime
+    end
+
+    get_ins = Session.created_on(date_to_inspect)
     get_outs = get_ins
 
     @today_sessions = []
