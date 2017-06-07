@@ -32,14 +32,14 @@ set :rbenv_roles, :all # default value
 # set :keep_releases, 5
 
 ## Linked Files & Directories (Default None):
-# set :linked_files, %w{config/database.yml}
-# set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+set :linked_files, %w{config/database.yml}
+set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
   task :make_dirs do
     on roles(:app) do
-      execute "mkdir #{shared_path}/tmp/sockets -p"
+      execute "mkdir #{shared_path}/sockets -p"
       execute "mkdir #{shared_path}/tmp/pids -p"
     end
   end
