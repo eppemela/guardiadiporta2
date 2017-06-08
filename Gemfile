@@ -55,6 +55,7 @@ group :development, :test do
   gem 'capistrano3-puma',   require: false
   gem 'airbrussh', require: false
   gem 'capistrano-rails-console'
+  gem 'listen'
 end
 
 
