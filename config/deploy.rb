@@ -80,6 +80,12 @@ namespace :deploy do
   after  :finishing,    :restart
 end
 
+before 'rails:console', :set_remote_rbenv_path
+
+task :set_remote_rbenv_path do
+  set :rbenv_path, '/home/pi/.rbenv/bin'
+end
+
 # ps aux | grep puma    # Get puma pid
 # kill -s SIGUSR2 pid   # Restart puma
 # kill -s SIGTERM pid   # Stop puma
