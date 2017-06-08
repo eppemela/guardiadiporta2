@@ -1,1705 +1,2072 @@
 {
 "RECORDS":[
 {
-"id":"1",
-"name":"iMac Eppe",
-"created_at":"2015-04-09 13:26:14",
-"updated_at":"2017-05-17 14:24:20",
-"mac_addr":"EC:35:86:42:80:24",
-"last_seen":"2017-05-17 14:24:20",
-"ignore":"1"
-},
-{
-"id":"2",
-"name":"Arata",
-"created_at":"2015-04-09 13:26:14",
-"updated_at":"2017-04-22 13:19:20",
-"mac_addr":"F0:F6:1C:0E:64:E3",
-"last_seen":"2017-04-22 13:19:19",
-"ignore":"0"
-},
-{
-"id":"3",
-"name":"Tomas MacBook Air",
-"created_at":"2015-04-09 13:26:14",
-"updated_at":"2017-05-17 14:19:21",
-"mac_addr":"4C:8D:79:F2:3F:4C",
-"last_seen":"2017-05-17 14:19:21",
-"ignore":"1"
-},
-{
-"id":"4",
-"name":"Marghe",
-"created_at":"2015-04-09 13:26:14",
-"updated_at":"2017-04-22 07:09:21",
-"mac_addr":"5C:8D:4E:3E:EB:FE",
-"last_seen":"2017-04-22 07:09:21",
-"ignore":"0"
-},
-{
-"id":"5",
-"name":"Telecamera",
-"created_at":"2015-04-09 13:26:14",
-"updated_at":"2017-05-17 14:26:20",
-"mac_addr":"B0:C5:54:00:B6:27",
-"last_seen":"2017-05-17 14:26:20",
-"ignore":"1"
-},
-{
 "id":"6",
 "name":"Eppe iPhone5",
-"created_at":"2015-04-09 13:32:15",
-"updated_at":"2016-10-26 15:02:08",
 "mac_addr":"A0:ED:CD:59:2D:ED",
 "last_seen":"2016-10-19 11:34:00",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-09 13:32:15",
+"updated_at":"2016-10-26 15:02:08",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"7",
 "name":"Macbook Air Marghe",
-"created_at":"2015-04-09 13:57:16",
-"updated_at":"2017-04-21 15:04:20",
 "mac_addr":"94:94:26:04:59:18",
 "last_seen":"2017-04-21 15:04:20",
-"ignore":"1"
+"ignore":"t",
+"created_at":"2015-04-09 13:57:16",
+"updated_at":"2017-04-21 15:04:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"8",
 "name":"Tomas iPhone 4S",
-"created_at":"2015-04-09 14:16:14",
-"updated_at":"2015-04-22 15:45:21",
 "mac_addr":"78:A3:E4:E3:42:13",
 "last_seen":"2015-04-22 15:45:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-09 14:16:14",
+"updated_at":"2015-04-22 15:45:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"9",
 "name":"Valentina Old",
-"created_at":"2015-04-09 14:53:15",
-"updated_at":"2015-06-16 10:16:49",
 "mac_addr":"98:0C:82:F4:B1:5D",
 "last_seen":"2015-05-28 18:31:00",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-09 14:53:15",
+"updated_at":"2015-06-16 10:16:49",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"10",
 "name":"Alex",
-"created_at":"2015-04-09 16:00:14",
-"updated_at":"2016-08-13 22:59:23",
 "mac_addr":"70:14:A6:5E:4E:46",
 "last_seen":"2016-08-13 22:59:23",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-09 16:00:14",
+"updated_at":"2016-08-13 22:59:23",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"11",
 "name":"Macbook bianco",
-"created_at":"2015-04-09 16:27:13",
-"updated_at":"2015-11-23 09:51:30",
 "mac_addr":"00:17:F2:46:98:49",
 "last_seen":"2015-11-23 09:51:30",
-"ignore":"1"
+"ignore":"t",
+"created_at":"2015-04-09 16:27:13",
+"updated_at":"2015-11-23 09:51:30",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"12",
 "name":"Francesca",
-"created_at":"2015-04-10 16:47:14",
-"updated_at":"2015-09-09 18:50:20",
 "mac_addr":"AC:36:13:EB:0F:BC",
 "last_seen":"2015-09-09 18:50:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-10 16:47:14",
+"updated_at":"2015-09-09 18:50:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"13",
 "name":"",
-"created_at":"2015-04-10 20:47:14",
-"updated_at":"2016-08-04 21:19:21",
 "mac_addr":"28:CF:E9:61:E8:01",
 "last_seen":"2016-08-04 21:19:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-10 20:47:14",
+"updated_at":"2016-08-04 21:19:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"14",
 "name":"Valentina PC",
-"created_at":"2015-04-15 09:21:19",
-"updated_at":"2016-10-10 01:34:22",
 "mac_addr":"EC:55:F9:B5:B8:34",
 "last_seen":"2016-10-10 01:34:22",
-"ignore":"1"
+"ignore":"t",
+"created_at":"2015-04-15 09:21:19",
+"updated_at":"2016-10-10 01:34:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"15",
 "name":"Martina",
-"created_at":"2015-04-17 14:56:19",
-"updated_at":"2016-03-13 14:49:21",
 "mac_addr":"B8:09:8A:A9:14:C3",
 "last_seen":"2016-03-13 14:49:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-17 14:56:19",
+"updated_at":"2016-03-13 14:49:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"16",
 "name":"Carolina",
-"created_at":"2015-04-20 13:08:20",
-"updated_at":"2015-08-10 14:34:28",
 "mac_addr":"14:5A:05:A8:F5:4D",
 "last_seen":"2015-08-10 14:34:27",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-20 13:08:20",
+"updated_at":"2015-08-10 14:34:28",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"17",
 "name":"Carolina MacBook",
-"created_at":"2015-04-20 14:05:23",
-"updated_at":"2016-11-05 18:36:19",
 "mac_addr":"D8:A2:5E:8B:8D:D3",
 "last_seen":"2016-11-05 18:36:19",
-"ignore":"1"
-},
-{
-"id":"18",
-"name":"Tomas",
-"created_at":"2015-04-21 12:10:20",
-"updated_at":"2017-05-17 14:26:20",
-"mac_addr":"28:5A:EB:E4:80:11",
-"last_seen":"2017-05-17 14:26:20",
-"ignore":"0"
+"ignore":"t",
+"created_at":"2015-04-20 14:05:23",
+"updated_at":"2016-11-05 18:36:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"19",
 "name":"Pietro Bonoldi",
-"created_at":"2015-04-21 18:08:20",
-"updated_at":"2016-04-24 17:14:23",
 "mac_addr":"40:B3:95:5E:AB:1B",
 "last_seen":"2016-04-24 17:14:23",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-21 18:08:20",
+"updated_at":"2016-04-24 17:14:23",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"20",
 "name":"Cosimo",
-"created_at":"2015-04-26 01:01:19",
-"updated_at":"2015-06-16 14:21:22",
 "mac_addr":"F4:F1:5A:D7:20:7B",
 "last_seen":"2015-06-16 14:21:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-26 01:01:19",
+"updated_at":"2015-06-16 14:21:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"21",
 "name":"Checco",
-"created_at":"2015-04-26 14:07:19",
-"updated_at":"2015-09-18 21:17:22",
 "mac_addr":"F0:CB:A1:97:CF:D6",
 "last_seen":"2015-09-18 21:17:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-04-26 14:07:19",
+"updated_at":"2015-09-18 21:17:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"22",
 "name":"",
-"created_at":"2015-05-02 21:17:20",
-"updated_at":"2017-01-15 01:52:20",
 "mac_addr":"4C:7C:5F:66:E1:86",
 "last_seen":"2017-01-15 01:52:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-05-02 21:17:20",
+"updated_at":"2017-01-15 01:52:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"23",
 "name":"",
-"created_at":"2015-05-06 16:00:20",
-"updated_at":"2016-05-10 17:14:22",
 "mac_addr":"40:B3:95:1D:E8:C3",
 "last_seen":"2016-05-10 17:14:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-05-06 16:00:20",
+"updated_at":"2016-05-10 17:14:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"24",
 "name":"Martina MBP",
-"created_at":"2015-05-12 07:42:20",
-"updated_at":"2017-04-22 10:09:20",
 "mac_addr":"3C:15:C2:E1:E9:A0",
 "last_seen":"2017-04-22 10:09:20",
-"ignore":"1"
+"ignore":"t",
+"created_at":"2015-05-12 07:42:20",
+"updated_at":"2017-04-22 10:09:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"25",
 "name":"Martina ",
-"created_at":"2015-05-12 08:15:20",
-"updated_at":"2015-12-20 19:24:23",
 "mac_addr":"C0:64:C6:9A:24:24",
 "last_seen":"2015-12-20 19:24:23",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-05-12 08:15:20",
+"updated_at":"2015-12-20 19:24:23",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"26",
 "name":"Cosimo MacBook Air",
-"created_at":"2015-05-13 18:18:20",
-"updated_at":"2017-02-22 18:42:20",
 "mac_addr":"7C:D1:C3:EC:C4:77",
 "last_seen":"2017-02-22 18:42:20",
-"ignore":"1"
+"ignore":"t",
+"created_at":"2015-05-13 18:18:20",
+"updated_at":"2017-02-22 18:42:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"27",
 "name":"",
-"created_at":"2015-05-17 00:09:22",
-"updated_at":"2015-05-17 00:09:22",
 "mac_addr":"2C:F0:EE:B5:F5:8C",
 "last_seen":"2015-05-17 00:09:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-05-17 00:09:22",
+"updated_at":"2015-05-17 00:09:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"28",
 "name":"",
-"created_at":"2015-05-17 01:20:22",
-"updated_at":"2015-05-17 02:09:20",
 "mac_addr":"F0:DB:F8:62:69:F4",
 "last_seen":"2015-05-17 02:09:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-05-17 01:20:22",
+"updated_at":"2015-05-17 02:09:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"29",
 "name":"",
-"created_at":"2015-05-17 01:49:24",
-"updated_at":"2015-05-17 02:09:20",
 "mac_addr":"60:FA:CD:7F:84:C3",
 "last_seen":"2015-05-17 02:09:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-05-17 01:49:24",
+"updated_at":"2015-05-17 02:09:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"30",
 "name":"Checco iPad",
-"created_at":"2015-05-27 08:50:20",
-"updated_at":"2015-05-27 16:46:21",
 "mac_addr":"78:7E:61:C9:4E:E7",
 "last_seen":"2015-05-27 16:46:21",
-"ignore":"1"
+"ignore":"t",
+"created_at":"2015-05-27 08:50:20",
+"updated_at":"2015-05-27 16:46:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"31",
 "name":"Checco MacBook Air",
-"created_at":"2015-05-27 08:53:19",
-"updated_at":"2015-05-29 17:26:21",
 "mac_addr":"98:E0:D9:81:2F:85",
 "last_seen":"2015-05-29 17:26:21",
-"ignore":"1"
+"ignore":"t",
+"created_at":"2015-05-27 08:53:19",
+"updated_at":"2015-05-29 17:26:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"32",
 "name":"Andrea Bensi",
-"created_at":"2015-05-28 18:45:21",
-"updated_at":"2015-05-28 20:49:22",
 "mac_addr":"E0:B5:2D:09:26:6E",
 "last_seen":"2015-05-28 20:49:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-05-28 18:45:21",
+"updated_at":"2015-05-28 20:49:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"33",
 "name":"Valentina [temp]",
-"created_at":"2015-05-29 14:30:21",
-"updated_at":"2015-06-02 18:38:19",
 "mac_addr":"40:A6:D9:97:25:2F",
 "last_seen":"2015-06-02 18:38:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-05-29 14:30:21",
+"updated_at":"2015-06-02 18:38:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"34",
 "name":"iPad Marghe",
-"created_at":"2015-06-05 10:04:20",
-"updated_at":"2016-03-12 16:09:22",
 "mac_addr":"34:51:C9:45:7F:9D",
 "last_seen":"2016-03-12 16:09:22",
-"ignore":"1"
-},
-{
-"id":"35",
-"name":"Valentina",
-"created_at":"2015-06-09 09:07:21",
-"updated_at":"2017-05-04 15:56:21",
-"mac_addr":"60:AF:6D:C9:F9:B0",
-"last_seen":"2017-05-04 15:56:21",
-"ignore":"0"
+"ignore":"t",
+"created_at":"2015-06-05 10:04:20",
+"updated_at":"2016-03-12 16:09:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"36",
 "name":"iPad Eppe",
-"created_at":"2015-06-10 12:34:20",
-"updated_at":"2016-07-29 20:39:19",
 "mac_addr":"B0:34:95:24:A1:0F",
 "last_seen":"2016-07-29 20:39:19",
-"ignore":"1"
+"ignore":"t",
+"created_at":"2015-06-10 12:34:20",
+"updated_at":"2016-07-29 20:39:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"37",
 "name":"",
-"created_at":"2015-06-19 23:24:22",
-"updated_at":"2015-06-25 16:41:20",
 "mac_addr":"40:A6:D9:E4:FC:8A",
 "last_seen":"2015-06-25 16:41:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-06-19 23:24:22",
+"updated_at":"2015-06-25 16:41:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"38",
 "name":"Monica",
-"created_at":"2015-06-30 08:42:21",
-"updated_at":"2016-10-09 14:49:19",
 "mac_addr":"CC:29:F5:5A:EC:BE",
 "last_seen":"2016-10-09 14:49:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-06-30 08:42:21",
+"updated_at":"2016-10-09 14:49:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"39",
 "name":"Bernardo",
-"created_at":"2015-07-09 14:50:20",
-"updated_at":"2016-03-19 18:59:23",
 "mac_addr":"E0:66:78:CD:91:70",
 "last_seen":"2016-03-19 18:59:23",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-07-09 14:50:20",
+"updated_at":"2016-03-19 18:59:23",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"40",
 "name":"",
-"created_at":"2015-07-10 07:01:19",
-"updated_at":"2016-02-19 09:29:19",
 "mac_addr":"20:C9:D0:7F:0A:AB",
 "last_seen":"2016-02-19 09:29:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-07-10 07:01:19",
+"updated_at":"2016-02-19 09:29:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"41",
 "name":"",
-"created_at":"2015-07-24 12:47:22",
-"updated_at":"2015-07-24 13:24:22",
 "mac_addr":"60:C5:47:03:41:FC",
 "last_seen":"2015-07-24 13:24:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-07-24 12:47:22",
+"updated_at":"2015-07-24 13:24:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"42",
 "name":"CHICAZZOE'QUESTO?!?",
-"created_at":"2015-09-07 12:23:20",
-"updated_at":"2016-11-13 20:31:20",
 "mac_addr":"14:A3:64:1C:F1:47",
 "last_seen":"2016-11-13 20:31:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-09-07 12:23:20",
+"updated_at":"2016-11-13 20:31:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"43",
 "name":"Carolina Polloni",
-"created_at":"2015-09-15 17:36:27",
-"updated_at":"2017-03-05 18:33:29",
 "mac_addr":"78:D7:5F:9E:3A:C7",
 "last_seen":"2017-03-05 18:33:29",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-09-15 17:36:27",
+"updated_at":"2017-03-05 18:33:29",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"44",
 "name":"Francesca",
-"created_at":"2015-09-19 11:04:22",
-"updated_at":"2017-04-01 15:12:20",
 "mac_addr":"B8:78:2E:5D:BA:86",
 "last_seen":"2017-04-01 15:12:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-09-19 11:04:22",
+"updated_at":"2017-04-01 15:12:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"45",
 "name":"Kelly MacBook ",
-"created_at":"2015-09-28 14:26:21",
-"updated_at":"2017-05-17 14:26:20",
 "mac_addr":"9C:F3:87:D4:8A:B8",
 "last_seen":"2017-05-17 14:26:20",
-"ignore":"1"
+"ignore":"t",
+"created_at":"2015-09-28 14:26:21",
+"updated_at":"2017-05-17 14:26:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"46",
 "name":"Sofie",
-"created_at":"2015-09-30 09:24:23",
-"updated_at":"2016-01-22 15:09:23",
 "mac_addr":"78:D7:5F:A8:B6:28",
 "last_seen":"2016-01-22 15:09:23",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-09-30 09:24:23",
+"updated_at":"2016-01-22 15:09:23",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"47",
 "name":"Kellie Riggs",
-"created_at":"2015-09-30 14:28:22",
-"updated_at":"2017-02-15 19:58:20",
 "mac_addr":"DC:86:D8:C7:76:DC",
 "last_seen":"2017-02-15 19:58:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-09-30 14:28:22",
+"updated_at":"2017-02-15 19:58:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"48",
 "name":"Vera",
-"created_at":"2015-10-01 11:23:24",
-"updated_at":"2016-05-13 12:39:19",
 "mac_addr":"48:43:7C:7B:91:EC",
 "last_seen":"2016-05-13 12:39:19",
-"ignore":"0"
-},
-{
-"id":"49",
-"name":"Cosimo",
-"created_at":"2015-10-01 11:51:25",
-"updated_at":"2017-05-17 14:16:20",
-"mac_addr":"DC:2B:2A:C5:60:32",
-"last_seen":"2017-05-17 14:16:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-10-01 11:23:24",
+"updated_at":"2016-05-13 12:39:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"50",
 "name":"",
-"created_at":"2015-10-01 15:57:23",
-"updated_at":"2015-10-01 17:36:23",
 "mac_addr":"54:40:AD:04:5E:F9",
 "last_seen":"2015-10-01 17:36:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-10-01 15:57:23",
+"updated_at":"2015-10-01 17:36:23",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"51",
 "name":"",
-"created_at":"2015-10-10 09:13:27",
-"updated_at":"2015-10-10 11:01:24",
 "mac_addr":"D8:1D:72:E7:87:BF",
 "last_seen":"2015-10-10 11:01:24",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-10-10 09:13:27",
+"updated_at":"2015-10-10 11:01:24",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"52",
 "name":"",
-"created_at":"2015-10-10 23:20:23",
-"updated_at":"2016-08-05 22:24:20",
 "mac_addr":"44:00:10:05:CB:85",
 "last_seen":"2016-08-05 22:24:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-10-10 23:20:23",
+"updated_at":"2016-08-05 22:24:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"53",
 "name":"",
-"created_at":"2015-10-15 10:41:24",
-"updated_at":"2015-10-22 17:05:42",
 "mac_addr":"10:A5:D0:31:E7:F9",
 "last_seen":"2015-10-22 17:05:41",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-10-15 10:41:24",
+"updated_at":"2015-10-22 17:05:42",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"54",
 "name":"Katy ",
-"created_at":"2015-10-19 08:36:56",
-"updated_at":"2015-11-06 18:30:22",
 "mac_addr":"D8:9E:3F:AF:FA:9F",
 "last_seen":"2015-11-06 18:30:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-10-19 08:36:56",
+"updated_at":"2015-11-06 18:30:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"55",
 "name":"",
-"created_at":"2015-10-19 11:53:56",
-"updated_at":"2015-10-19 15:38:56",
 "mac_addr":"B8:E8:56:17:D2:56",
 "last_seen":"2015-10-19 15:38:56",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-10-19 11:53:56",
+"updated_at":"2015-10-19 15:38:56",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"56",
 "name":"",
-"created_at":"2015-10-19 12:02:55",
-"updated_at":"2015-10-19 16:51:51",
 "mac_addr":"9C:35:EB:9A:33:21",
 "last_seen":"2015-10-19 16:51:51",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-10-19 12:02:55",
+"updated_at":"2015-10-19 16:51:51",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"57",
 "name":"",
-"created_at":"2015-10-19 15:46:52",
-"updated_at":"2015-10-19 16:51:52",
 "mac_addr":"D0:25:98:DF:B4:89",
 "last_seen":"2015-10-19 16:51:52",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-10-19 15:46:52",
+"updated_at":"2015-10-19 16:51:52",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"58",
 "name":"iPad Mamma",
-"created_at":"2015-10-27 15:24:51",
-"updated_at":"2015-10-28 23:06:01",
 "mac_addr":"40:30:04:44:A8:C4",
 "last_seen":"2015-10-28 23:06:01",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-10-27 15:24:51",
+"updated_at":"2015-10-28 23:06:01",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"59",
 "name":"Kellie Riggs",
-"created_at":"2015-11-04 14:22:20",
-"updated_at":"2016-06-14 17:49:21",
 "mac_addr":"60:FA:CD:95:EC:B9",
 "last_seen":"2016-06-14 17:49:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-11-04 14:22:20",
+"updated_at":"2016-06-14 17:49:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"60",
 "name":"",
-"created_at":"2015-11-05 15:04:19",
-"updated_at":"2015-11-05 15:24:20",
 "mac_addr":"68:A8:6D:2A:D4:AE",
 "last_seen":"2015-11-05 15:24:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-11-05 15:04:19",
+"updated_at":"2015-11-05 15:24:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"61",
 "name":"Maria Ignacia",
-"created_at":"2015-11-10 10:02:41",
-"updated_at":"2016-09-03 14:24:19",
 "mac_addr":"3C:E0:72:90:34:DA",
 "last_seen":"2016-09-03 14:24:19",
-"ignore":"0"
-},
-{
-"id":"62",
-"name":"MacBook Eppe",
-"created_at":"2015-11-10 12:41:39",
-"updated_at":"2017-05-04 16:19:20",
-"mac_addr":"00:23:6C:84:5A:26",
-"last_seen":"2017-05-04 16:19:20",
-"ignore":"1"
+"ignore":"f",
+"created_at":"2015-11-10 10:02:41",
+"updated_at":"2016-09-03 14:24:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"63",
 "name":"",
-"created_at":"2015-11-10 16:51:23",
-"updated_at":"2016-03-16 16:49:19",
 "mac_addr":"B4:30:52:03:46:73",
 "last_seen":"2016-03-16 16:49:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-11-10 16:51:23",
+"updated_at":"2016-03-16 16:49:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"64",
 "name":"Martina Loncar",
-"created_at":"2015-11-13 07:46:21",
-"updated_at":"2016-11-21 18:23:21",
 "mac_addr":"00:CD:FE:86:75:01",
 "last_seen":"2016-11-21 18:23:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-11-13 07:46:21",
+"updated_at":"2016-11-21 18:23:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"65",
 "name":"Stampante Laser Colori",
-"created_at":"2015-11-27 14:35:20",
-"updated_at":"2017-05-17 14:26:20",
 "mac_addr":"00:15:99:0C:82:04",
 "last_seen":"2017-05-17 14:26:20",
-"ignore":"1"
-},
-{
-"id":"66",
-"name":"Stampante OfficineNora",
-"created_at":"2015-11-30 11:25:19",
+"ignore":"t",
+"created_at":"2015-11-27 14:35:20",
 "updated_at":"2017-05-17 14:26:20",
-"mac_addr":"EC:0E:C4:03:A1:10",
-"last_seen":"2017-05-17 14:26:20",
-"ignore":"1"
-},
-{
-"id":"67",
-"name":"Telecamera 2",
-"created_at":"2015-12-10 11:40:21",
-"updated_at":"2017-05-17 14:26:20",
-"mac_addr":"B0:C5:54:15:DD:4D",
-"last_seen":"2017-05-17 14:26:20",
-"ignore":"1"
+"is_female":"",
+"original_name":""
 },
 {
 "id":"68",
 "name":"",
-"created_at":"2015-12-11 18:25:22",
-"updated_at":"2015-12-11 18:54:19",
 "mac_addr":"C0:EE:FB:42:B1:7E",
 "last_seen":"2015-12-11 18:54:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-12-11 18:25:22",
+"updated_at":"2015-12-11 18:54:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"69",
 "name":"",
-"created_at":"2015-12-12 14:30:20",
-"updated_at":"2015-12-12 21:34:21",
 "mac_addr":"E8:91:20:89:0F:7C",
 "last_seen":"2015-12-12 21:34:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-12-12 14:30:20",
+"updated_at":"2015-12-12 21:34:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"70",
 "name":"",
-"created_at":"2015-12-17 12:30:20",
-"updated_at":"2016-09-19 11:54:20",
 "mac_addr":"40:A6:D9:C0:68:68",
 "last_seen":"2016-09-19 11:54:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-12-17 12:30:20",
+"updated_at":"2016-09-19 11:54:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"71",
 "name":"",
-"created_at":"2015-12-17 13:20:24",
-"updated_at":"2016-02-11 14:49:19",
 "mac_addr":"00:6D:52:10:60:7B",
 "last_seen":"2016-02-11 14:49:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-12-17 13:20:24",
+"updated_at":"2016-02-11 14:49:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"72",
 "name":"",
-"created_at":"2015-12-17 18:45:20",
-"updated_at":"2016-02-26 13:59:19",
 "mac_addr":"10:92:66:A7:63:74",
 "last_seen":"2016-02-26 13:59:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-12-17 18:45:20",
+"updated_at":"2016-02-26 13:59:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"73",
 "name":"",
-"created_at":"2015-12-20 15:50:23",
-"updated_at":"2015-12-21 19:14:19",
 "mac_addr":"5C:C5:D4:DB:F1:B9",
 "last_seen":"2015-12-21 19:14:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-12-20 15:50:23",
+"updated_at":"2015-12-21 19:14:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"74",
 "name":"",
-"created_at":"2015-12-22 09:30:20",
-"updated_at":"2015-12-22 13:44:20",
 "mac_addr":"8C:C5:E1:F6:9C:8E",
 "last_seen":"2015-12-22 13:44:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-12-22 09:30:20",
+"updated_at":"2015-12-22 13:44:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"75",
 "name":"",
-"created_at":"2015-12-24 09:50:20",
-"updated_at":"2015-12-24 10:14:19",
 "mac_addr":"D0:A6:37:E1:3C:D6",
 "last_seen":"2015-12-24 10:14:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2015-12-24 09:50:20",
+"updated_at":"2015-12-24 10:14:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"76",
 "name":"",
-"created_at":"2016-01-01 01:40:23",
-"updated_at":"2016-01-01 01:59:19",
 "mac_addr":"7C:01:91:0B:3F:D9",
 "last_seen":"2016-01-01 01:59:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-01-01 01:40:23",
+"updated_at":"2016-01-01 01:59:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"77",
 "name":"",
-"created_at":"2016-01-08 01:10:20",
-"updated_at":"2016-11-09 18:30:19",
 "mac_addr":"3C:D0:F8:7C:A1:16",
 "last_seen":"2016-11-09 18:30:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-01-08 01:10:20",
+"updated_at":"2016-11-09 18:30:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"78",
 "name":"",
-"created_at":"2016-01-25 15:25:22",
-"updated_at":"2016-01-25 17:04:19",
 "mac_addr":"5C:F9:38:8F:07:4C",
 "last_seen":"2016-01-25 17:04:19",
-"ignore":"0"
-},
-{
-"id":"79",
-"name":"Tablet Samsung ",
-"created_at":"2016-01-27 14:40:22",
-"updated_at":"2017-05-17 14:26:20",
-"mac_addr":"E0:99:71:81:35:6B",
-"last_seen":"2017-05-17 14:26:20",
-"ignore":"1"
+"ignore":"f",
+"created_at":"2016-01-25 15:25:22",
+"updated_at":"2016-01-25 17:04:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"80",
 "name":"",
-"created_at":"2016-01-27 17:35:20",
-"updated_at":"2016-01-27 17:54:20",
 "mac_addr":"18:22:7E:E1:4F:91",
 "last_seen":"2016-01-27 17:54:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-01-27 17:35:20",
+"updated_at":"2016-01-27 17:54:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"81",
 "name":"",
-"created_at":"2016-01-30 11:10:20",
-"updated_at":"2016-01-30 12:59:20",
 "mac_addr":"7C:FA:DF:6C:7E:0B",
 "last_seen":"2016-01-30 12:59:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-01-30 11:10:20",
+"updated_at":"2016-01-30 12:59:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"82",
 "name":"",
-"created_at":"2016-01-30 16:25:21",
-"updated_at":"2016-11-15 10:12:23",
 "mac_addr":"A4:5E:60:AB:0F:72",
 "last_seen":"2016-11-15 10:12:23",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-01-30 16:25:21",
+"updated_at":"2016-11-15 10:12:23",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"83",
 "name":"",
-"created_at":"2016-01-30 17:30:24",
-"updated_at":"2016-10-03 15:24:20",
 "mac_addr":"54:26:96:36:AF:C1",
 "last_seen":"2016-10-03 15:24:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-01-30 17:30:24",
+"updated_at":"2016-10-03 15:24:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"2",
+"name":"Arata",
+"mac_addr":"F0:F6:1C:0E:64:E3",
+"last_seen":"2017-05-27 15:56:55",
+"ignore":"f",
+"created_at":"2015-04-09 13:26:14",
+"updated_at":"2017-05-27 15:56:55.87415",
+"is_female":"",
+"original_name":"ARATAFUnoiPhone"
+},
+{
+"id":"67",
+"name":"Telecamera 2",
+"mac_addr":"B0:C5:54:15:DD:4D",
+"last_seen":"2017-06-07 11:24:58",
+"ignore":"t",
+"created_at":"2015-12-10 11:40:21",
+"updated_at":"2017-06-07 11:24:58.244954",
+"is_female":"",
+"original_name":"OfficineNoraBack"
+},
+{
+"id":"3",
+"name":"Tomas MacBook Air",
+"mac_addr":"4C:8D:79:F2:3F:4C",
+"last_seen":"2017-05-31 17:24:36",
+"ignore":"t",
+"created_at":"2015-04-09 13:26:14",
+"updated_at":"2017-05-31 17:24:36.141823",
+"is_female":"",
+"original_name":"MacBook-Air"
+},
+{
+"id":"62",
+"name":"MacBook Eppe",
+"mac_addr":"00:23:6C:84:5A:26",
+"last_seen":"2017-05-31 17:24:36",
+"ignore":"t",
+"created_at":"2015-11-10 12:41:39",
+"updated_at":"2017-05-31 17:24:36.170045",
+"is_female":"",
+"original_name":"MacBookGiuseppe"
+},
+{
+"id":"66",
+"name":"Stampante OfficineNora",
+"mac_addr":"EC:0E:C4:03:A1:10",
+"last_seen":"2017-06-07 11:24:58",
+"ignore":"t",
+"created_at":"2015-11-30 11:25:19",
+"updated_at":"2017-06-07 11:24:58.251616",
+"is_female":"",
+"original_name":"StampanteBN"
+},
+{
+"id":"49",
+"name":"Cosimo",
+"mac_addr":"DC:2B:2A:C5:60:32",
+"last_seen":"2017-05-31 15:58:31",
+"ignore":"f",
+"created_at":"2015-10-01 11:51:25",
+"updated_at":"2017-05-31 15:58:31.489962",
+"is_female":"",
+"original_name":"Cosimo-6"
+},
+{
+"id":"4",
+"name":"Marghe",
+"mac_addr":"5C:8D:4E:3E:EB:FE",
+"last_seen":"2017-06-07 11:24:58",
+"ignore":"f",
+"created_at":"2015-04-09 13:26:14",
+"updated_at":"2017-06-07 11:24:58.281543",
+"is_female":"t",
+"original_name":"iPhoneMrgherita"
+},
+{
+"id":"5",
+"name":"Telecamera",
+"mac_addr":"B0:C5:54:00:B6:27",
+"last_seen":"2017-06-07 11:24:58",
+"ignore":"t",
+"created_at":"2015-04-09 13:26:14",
+"updated_at":"2017-06-07 11:24:58.255134",
+"is_female":"",
+"original_name":"OfficineNora"
 },
 {
 "id":"84",
 "name":"",
-"created_at":"2016-02-03 17:40:20",
-"updated_at":"2016-10-10 20:29:22",
 "mac_addr":"78:D7:5F:8F:53:37",
 "last_seen":"2016-10-10 20:29:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-02-03 17:40:20",
+"updated_at":"2016-10-10 20:29:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"85",
 "name":"",
-"created_at":"2016-02-10 12:55:21",
-"updated_at":"2016-02-10 18:54:20",
 "mac_addr":"00:26:BB:17:CB:02",
 "last_seen":"2016-02-10 18:54:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-02-10 12:55:21",
+"updated_at":"2016-02-10 18:54:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"86",
 "name":"",
-"created_at":"2016-02-11 14:20:22",
-"updated_at":"2016-02-11 16:44:21",
 "mac_addr":"58:1F:AA:19:65:99",
 "last_seen":"2016-02-11 16:44:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-02-11 14:20:22",
+"updated_at":"2016-02-11 16:44:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"87",
 "name":"",
-"created_at":"2016-02-18 15:35:23",
-"updated_at":"2016-08-19 13:49:20",
 "mac_addr":"BC:4C:C4:77:9A:56",
 "last_seen":"2016-08-19 13:49:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-02-18 15:35:23",
+"updated_at":"2016-08-19 13:49:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"88",
 "name":"",
-"created_at":"2016-02-19 09:30:20",
-"updated_at":"2017-04-22 10:13:20",
 "mac_addr":"C8:85:50:69:3B:3E",
 "last_seen":"2017-04-22 10:13:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-02-19 09:30:20",
+"updated_at":"2017-04-22 10:13:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"89",
 "name":"",
-"created_at":"2016-02-20 19:45:23",
-"updated_at":"2016-04-18 16:59:22",
 "mac_addr":"E0:C9:7A:A8:CA:FB",
 "last_seen":"2016-04-18 16:59:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-02-20 19:45:23",
+"updated_at":"2016-04-18 16:59:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"90",
 "name":"",
-"created_at":"2016-02-20 19:45:23",
-"updated_at":"2016-02-20 23:14:19",
 "mac_addr":"54:E4:3A:2A:49:3E",
 "last_seen":"2016-02-20 23:14:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-02-20 19:45:23",
+"updated_at":"2016-02-20 23:14:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"91",
 "name":"",
-"created_at":"2016-02-23 14:40:21",
-"updated_at":"2016-03-23 18:19:20",
 "mac_addr":"58:7F:57:0B:46:CF",
 "last_seen":"2016-03-23 18:19:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-02-23 14:40:21",
+"updated_at":"2016-03-23 18:19:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"92",
 "name":"",
-"created_at":"2016-03-01 08:10:20",
-"updated_at":"2016-03-24 11:19:22",
 "mac_addr":"60:F8:1D:21:AF:79",
 "last_seen":"2016-03-24 11:19:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-03-01 08:10:20",
+"updated_at":"2016-03-24 11:19:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"93",
 "name":"Sofi",
-"created_at":"2016-03-02 09:40:21",
-"updated_at":"2016-05-31 11:19:19",
 "mac_addr":"A8:A6:68:C9:09:0F",
 "last_seen":"2016-05-31 11:19:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-03-02 09:40:21",
+"updated_at":"2016-05-31 11:19:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"94",
 "name":"",
-"created_at":"2016-03-02 11:25:20",
-"updated_at":"2016-03-17 17:04:21",
 "mac_addr":"F8:1E:DF:DF:62:E0",
 "last_seen":"2016-03-17 17:04:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-03-02 11:25:20",
+"updated_at":"2016-03-17 17:04:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"95",
 "name":"",
-"created_at":"2016-03-02 14:45:21",
-"updated_at":"2016-03-10 12:49:20",
 "mac_addr":"B4:07:F9:0D:CA:6A",
 "last_seen":"2016-03-10 12:49:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-03-02 14:45:21",
+"updated_at":"2016-03-10 12:49:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"96",
 "name":"",
-"created_at":"2016-03-19 16:25:23",
-"updated_at":"2016-03-19 18:39:22",
 "mac_addr":"5C:CF:7F:81:78:30",
 "last_seen":"2016-03-19 18:39:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-03-19 16:25:23",
+"updated_at":"2016-03-19 18:39:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"97",
 "name":"",
-"created_at":"2016-03-19 16:25:23",
-"updated_at":"2016-03-19 18:39:23",
 "mac_addr":"10:40:F3:F1:65:32",
 "last_seen":"2016-03-19 18:39:23",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-03-19 16:25:23",
+"updated_at":"2016-03-19 18:39:23",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"98",
 "name":"",
-"created_at":"2016-03-29 11:00:23",
-"updated_at":"2016-04-01 17:24:20",
 "mac_addr":"18:9E:FC:AC:4F:93",
 "last_seen":"2016-04-01 17:24:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-03-29 11:00:23",
+"updated_at":"2016-04-01 17:24:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"99",
 "name":"",
-"created_at":"2016-03-29 11:00:23",
-"updated_at":"2016-04-01 17:24:20",
 "mac_addr":"6C:8D:C1:C8:9E:66",
 "last_seen":"2016-04-01 17:24:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-03-29 11:00:23",
+"updated_at":"2016-04-01 17:24:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"100",
 "name":"",
-"created_at":"2016-03-31 20:25:21",
-"updated_at":"2016-04-03 13:14:20",
 "mac_addr":"5C:51:88:3D:9D:57",
 "last_seen":"2016-04-03 13:14:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-03-31 20:25:21",
+"updated_at":"2016-04-03 13:14:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"101",
 "name":"",
-"created_at":"2016-03-31 20:50:22",
-"updated_at":"2016-03-31 21:59:19",
 "mac_addr":"20:C9:D0:C7:81:A9",
 "last_seen":"2016-03-31 21:59:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-03-31 20:50:22",
+"updated_at":"2016-03-31 21:59:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"102",
 "name":"",
-"created_at":"2016-04-04 16:20:20",
-"updated_at":"2016-04-04 17:54:19",
 "mac_addr":"C8:BC:C8:EF:55:16",
 "last_seen":"2016-04-04 17:54:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-04 16:20:20",
+"updated_at":"2016-04-04 17:54:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"103",
 "name":"",
-"created_at":"2016-04-05 12:50:20",
-"updated_at":"2016-08-30 16:34:20",
 "mac_addr":"68:A3:C4:1C:A4:3A",
 "last_seen":"2016-08-30 16:34:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-05 12:50:20",
+"updated_at":"2016-08-30 16:34:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"104",
 "name":"",
-"created_at":"2016-04-06 08:55:20",
-"updated_at":"2016-09-22 10:04:20",
 "mac_addr":"F4:9F:F3:16:76:01",
 "last_seen":"2016-09-22 10:04:20",
-"ignore":"0"
-},
-{
-"id":"105",
-"name":"MacBook Pro Eppe ",
-"created_at":"2016-04-07 16:55:23",
-"updated_at":"2017-05-06 11:42:21",
-"mac_addr":"F4:5C:89:8D:B5:95",
-"last_seen":"2017-05-06 11:42:20",
-"ignore":"1"
+"ignore":"f",
+"created_at":"2016-04-06 08:55:20",
+"updated_at":"2016-09-22 10:04:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"106",
 "name":"",
-"created_at":"2016-04-09 17:20:22",
-"updated_at":"2016-04-10 16:09:19",
 "mac_addr":"38:CA:DA:AF:45:BA",
 "last_seen":"2016-04-10 16:09:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-09 17:20:22",
+"updated_at":"2016-04-10 16:09:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"107",
 "name":"",
-"created_at":"2016-04-09 17:25:21",
-"updated_at":"2016-04-10 16:09:19",
 "mac_addr":"28:E1:4C:4E:7B:D2",
 "last_seen":"2016-04-10 16:09:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-09 17:25:21",
+"updated_at":"2016-04-10 16:09:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"108",
 "name":"",
-"created_at":"2016-04-10 07:15:21",
-"updated_at":"2016-04-10 17:09:21",
 "mac_addr":"E8:50:8B:FA:D7:93",
 "last_seen":"2016-04-10 17:09:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-10 07:15:21",
+"updated_at":"2016-04-10 17:09:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"109",
 "name":"",
-"created_at":"2016-04-11 08:50:20",
-"updated_at":"2016-04-11 16:34:19",
 "mac_addr":"18:F6:43:2A:96:C4",
 "last_seen":"2016-04-11 16:34:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-11 08:50:20",
+"updated_at":"2016-04-11 16:34:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"110",
 "name":"",
-"created_at":"2016-04-11 20:15:23",
-"updated_at":"2016-09-19 22:29:19",
 "mac_addr":"B4:8B:19:92:BC:22",
 "last_seen":"2016-09-19 22:29:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-11 20:15:23",
+"updated_at":"2016-09-19 22:29:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"111",
 "name":"",
-"created_at":"2016-04-15 08:50:23",
-"updated_at":"2016-04-15 09:29:19",
 "mac_addr":"F8:A9:D0:65:0B:B0",
 "last_seen":"2016-04-15 09:29:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-15 08:50:23",
+"updated_at":"2016-04-15 09:29:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"112",
 "name":"",
-"created_at":"2016-04-15 18:45:21",
-"updated_at":"2016-08-15 12:34:19",
 "mac_addr":"6C:40:08:4F:8E:30",
 "last_seen":"2016-08-15 12:34:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-15 18:45:21",
+"updated_at":"2016-08-15 12:34:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"113",
 "name":"",
-"created_at":"2016-04-18 08:10:21",
-"updated_at":"2016-04-18 08:14:19",
 "mac_addr":"A8:96:8A:E8:C5:11",
 "last_seen":"2016-04-18 08:14:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-18 08:10:21",
+"updated_at":"2016-04-18 08:14:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"114",
 "name":"",
-"created_at":"2016-04-22 10:15:21",
-"updated_at":"2016-04-22 13:39:20",
 "mac_addr":"00:CD:FE:D6:69:17",
 "last_seen":"2016-04-22 13:39:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-04-22 10:15:21",
+"updated_at":"2016-04-22 13:39:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"115",
 "name":"",
-"created_at":"2016-05-13 15:40:20",
-"updated_at":"2016-06-16 17:24:23",
 "mac_addr":"C8:1E:E7:62:2D:3B",
 "last_seen":"2016-06-16 17:24:23",
-"ignore":"0"
-},
-{
-"id":"116",
-"name":"Carolina",
-"created_at":"2016-05-31 11:20:20",
-"updated_at":"2017-05-04 10:19:20",
-"mac_addr":"54:72:4F:44:6A:25",
-"last_seen":"2017-05-04 10:19:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-05-13 15:40:20",
+"updated_at":"2016-06-16 17:24:23",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"117",
 "name":"",
-"created_at":"2016-05-31 12:40:23",
-"updated_at":"2016-09-19 22:04:20",
 "mac_addr":"28:37:37:22:AA:D2",
 "last_seen":"2016-09-19 22:04:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-05-31 12:40:23",
+"updated_at":"2016-09-19 22:04:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"118",
 "name":"Stefania?",
-"created_at":"2016-06-01 09:55:21",
-"updated_at":"2016-06-10 12:19:20",
 "mac_addr":"54:E4:3A:7E:69:CF",
 "last_seen":"2016-06-10 12:19:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-06-01 09:55:21",
+"updated_at":"2016-06-10 12:19:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"119",
 "name":"",
-"created_at":"2016-06-05 16:20:20",
-"updated_at":"2016-06-05 17:39:19",
 "mac_addr":"EC:9B:F3:81:1A:16",
 "last_seen":"2016-06-05 17:39:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-06-05 16:20:20",
+"updated_at":"2016-06-05 17:39:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"120",
 "name":"Stefanie",
-"created_at":"2016-06-07 08:55:21",
-"updated_at":"2017-02-17 18:36:20",
 "mac_addr":"1C:91:48:03:95:16",
 "last_seen":"2017-02-17 18:36:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-06-07 08:55:21",
+"updated_at":"2017-02-17 18:36:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"121",
 "name":"",
-"created_at":"2016-06-07 13:00:19",
-"updated_at":"2017-02-14 17:58:20",
 "mac_addr":"9C:F3:87:C4:F9:36",
 "last_seen":"2017-02-14 17:58:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-06-07 13:00:19",
+"updated_at":"2017-02-14 17:58:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"122",
 "name":"",
-"created_at":"2016-06-08 16:50:20",
-"updated_at":"2016-06-08 16:59:19",
 "mac_addr":"D0:03:4B:A2:26:78",
 "last_seen":"2016-06-08 16:59:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-06-08 16:50:20",
+"updated_at":"2016-06-08 16:59:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"123",
 "name":"Rebecca",
-"created_at":"2016-06-09 11:00:23",
-"updated_at":"2016-07-29 18:24:22",
 "mac_addr":"D0:25:98:36:E0:9A",
 "last_seen":"2016-07-29 18:24:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-06-09 11:00:23",
+"updated_at":"2016-07-29 18:24:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"124",
 "name":"Rebecca's MacBookPro",
-"created_at":"2016-06-14 08:35:23",
-"updated_at":"2016-07-27 18:29:21",
 "mac_addr":"F8:1E:DF:E4:8A:12",
 "last_seen":"2016-07-27 18:29:21",
-"ignore":"1"
+"ignore":"t",
+"created_at":"2016-06-14 08:35:23",
+"updated_at":"2016-07-27 18:29:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"125",
 "name":"",
-"created_at":"2016-06-16 17:20:22",
-"updated_at":"2016-06-16 17:39:19",
 "mac_addr":"C8:E0:EB:81:56:AD",
 "last_seen":"2016-06-16 17:39:18",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-06-16 17:20:22",
+"updated_at":"2016-06-16 17:39:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"126",
 "name":"",
-"created_at":"2016-06-20 13:40:22",
-"updated_at":"2016-06-20 13:59:22",
 "mac_addr":"28:A0:2B:54:F4:26",
 "last_seen":"2016-06-20 13:59:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-06-20 13:40:22",
+"updated_at":"2016-06-20 13:59:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"127",
 "name":"",
-"created_at":"2016-06-28 11:05:21",
-"updated_at":"2016-06-28 11:14:20",
 "mac_addr":"CC:20:E8:16:AC:0F",
 "last_seen":"2016-06-28 11:14:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-06-28 11:05:21",
+"updated_at":"2016-06-28 11:14:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"128",
 "name":"",
-"created_at":"2016-07-01 10:15:24",
-"updated_at":"2016-07-15 14:09:19",
 "mac_addr":"34:A3:95:E3:9A:15",
 "last_seen":"2016-07-15 14:09:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-07-01 10:15:24",
+"updated_at":"2016-07-15 14:09:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"129",
 "name":"",
-"created_at":"2016-07-05 14:55:21",
-"updated_at":"2016-07-05 15:04:20",
 "mac_addr":"A4:B8:05:B7:D9:7B",
 "last_seen":"2016-07-05 15:04:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-07-05 14:55:21",
+"updated_at":"2016-07-05 15:04:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"130",
 "name":"",
-"created_at":"2016-07-15 13:15:20",
-"updated_at":"2016-07-15 15:24:20",
 "mac_addr":"10:41:7F:99:05:3E",
 "last_seen":"2016-07-15 15:24:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-07-15 13:15:20",
+"updated_at":"2016-07-15 15:24:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"131",
 "name":"",
-"created_at":"2016-07-27 07:26:23",
-"updated_at":"2016-07-29 18:24:22",
 "mac_addr":"C0:9F:42:41:23:D5",
 "last_seen":"2016-07-29 18:24:22",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-07-27 07:26:23",
+"updated_at":"2016-07-29 18:24:22",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"132",
 "name":"Sehnanz",
-"created_at":"2016-07-27 10:55:22",
-"updated_at":"2016-07-27 12:49:20",
 "mac_addr":"B8:E8:56:00:EB:72",
 "last_seen":"2016-07-27 12:49:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-07-27 10:55:22",
+"updated_at":"2016-07-27 12:49:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"133",
 "name":"",
-"created_at":"2016-07-28 17:35:23",
-"updated_at":"2016-07-28 17:59:23",
 "mac_addr":"64:BC:0C:63:C2:1B",
 "last_seen":"2016-07-28 17:59:23",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-07-28 17:35:23",
+"updated_at":"2016-07-28 17:59:23",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"134",
 "name":"",
-"created_at":"2016-08-05 22:00:24",
-"updated_at":"2016-08-05 22:24:19",
 "mac_addr":"44:00:10:D1:02:FE",
 "last_seen":"2016-08-05 22:24:19",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-08-05 22:00:24",
+"updated_at":"2016-08-05 22:24:19",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"135",
 "name":"",
-"created_at":"2016-08-15 11:30:20",
-"updated_at":"2016-08-15 12:29:20",
 "mac_addr":"A4:D1:8C:63:54:5A",
 "last_seen":"2016-08-15 12:29:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-08-15 11:30:20",
+"updated_at":"2016-08-15 12:29:20",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"136",
 "name":"",
-"created_at":"2016-08-22 12:00:23",
-"updated_at":"2016-08-26 20:29:20",
 "mac_addr":"3C:AB:8E:A8:CA:DE",
 "last_seen":"2016-08-26 20:29:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2016-08-22 12:00:23",
+"updated_at":"2016-08-26 20:29:20",
+"is_female":"",
+"original_name":""
 },
 {
-"id":"137",
-"name":"",
-"created_at":"2016-08-30 12:14:20",
-"updated_at":"2016-08-30 12:14:20",
-"mac_addr":"",
-"last_seen":"2016-08-30 12:14:20",
-"ignore":"0"
+"id":"116",
+"name":"Carolina",
+"mac_addr":"54:72:4F:44:6A:25",
+"last_seen":"2017-05-31 17:24:36",
+"ignore":"f",
+"created_at":"2016-05-31 11:20:20",
+"updated_at":"2017-05-31 17:24:36.144713",
+"is_female":"",
+"original_name":"iPhonedCarolina"
 },
 {
-"id":"138",
-"name":"",
-"created_at":"2016-09-17 15:20:19",
-"updated_at":"2016-11-20 00:53:19",
-"mac_addr":"24:F0:94:4D:78:FE",
-"last_seen":"2016-11-20 00:53:19",
-"ignore":"0"
+"id":"18",
+"name":"Tomas",
+"mac_addr":"28:5A:EB:E4:80:11",
+"last_seen":"2017-06-04 21:25:16",
+"ignore":"f",
+"created_at":"2015-04-21 12:10:20",
+"updated_at":"2017-06-04 21:25:16.097063",
+"is_female":"f",
+"original_name":"iPhone6soCaligo"
 },
 {
-"id":"139",
-"name":"",
-"created_at":"2016-09-17 16:15:20",
-"updated_at":"2016-09-17 16:39:22",
-"mac_addr":"44:2A:60:F9:B7:FE",
-"last_seen":"2016-09-17 16:39:22",
-"ignore":"0"
+"id":"105",
+"name":"MacBook Pro Eppe ",
+"mac_addr":"F4:5C:89:8D:B5:95",
+"last_seen":"2017-06-07 11:13:51",
+"ignore":"t",
+"created_at":"2016-04-07 16:55:23",
+"updated_at":"2017-06-07 11:13:51.054499",
+"is_female":"",
+"original_name":"onosendai"
 },
 {
-"id":"140",
-"name":"",
-"created_at":"2016-09-19 09:50:19",
-"updated_at":"2016-09-19 10:14:19",
-"mac_addr":"00:9A:CD:68:DF:44",
-"last_seen":"2016-09-19 10:14:19",
-"ignore":"0"
+"id":"1",
+"name":"iMac Eppe",
+"mac_addr":"EC:35:86:42:80:24",
+"last_seen":"2017-06-07 11:24:58",
+"ignore":"t",
+"created_at":"2015-04-09 13:26:14",
+"updated_at":"2017-06-07 11:24:58.278153",
+"is_female":"",
+"original_name":"iMacdiGiuseppe"
 },
 {
-"id":"141",
-"name":"",
-"created_at":"2016-09-25 14:15:21",
-"updated_at":"2017-03-03 14:57:29",
-"mac_addr":"AC:EE:9E:0F:C0:D9",
-"last_seen":"2017-03-03 14:57:29",
-"ignore":"0"
+"id":"35",
+"name":"Valentina",
+"mac_addr":"60:AF:6D:C9:F9:B0",
+"last_seen":"2017-05-31 14:45:09",
+"ignore":"f",
+"created_at":"2015-06-09 09:07:21",
+"updated_at":"2017-05-31 14:45:09.256531",
+"is_female":"",
+"original_name":"android-ff80840c084a3dec"
 },
 {
-"id":"142",
-"name":"",
-"created_at":"2016-09-25 15:30:20",
-"updated_at":"2017-02-03 17:19:20",
-"mac_addr":"7C:7A:91:9D:D6:A4",
-"last_seen":"2017-02-03 17:19:20",
-"ignore":"0"
-},
-{
-"id":"143",
-"name":"",
-"created_at":"2016-09-25 16:55:23",
-"updated_at":"2016-09-30 13:44:20",
-"mac_addr":"28:A0:2B:4F:A2:B0",
-"last_seen":"2016-09-30 13:44:20",
-"ignore":"0"
-},
-{
-"id":"144",
-"name":"",
-"created_at":"2016-09-25 17:00:20",
-"updated_at":"2016-09-30 13:34:19",
-"mac_addr":"2C:F0:A2:93:4D:29",
-"last_seen":"2016-09-30 13:34:19",
-"ignore":"0"
-},
-{
-"id":"145",
-"name":"",
-"created_at":"2016-09-26 08:20:19",
-"updated_at":"2016-09-29 10:26:00",
-"mac_addr":"B8:09:8A:E1:3E:E2",
-"last_seen":"2016-09-29 10:26:00",
-"ignore":"0"
-},
-{
-"id":"146",
-"name":"",
-"created_at":"2016-09-26 08:20:19",
-"updated_at":"2016-09-30 13:34:19",
-"mac_addr":"6C:72:E7:AD:F1:75",
-"last_seen":"2016-09-30 13:34:19",
-"ignore":"0"
-},
-{
-"id":"147",
-"name":"",
-"created_at":"2016-09-26 08:20:19",
-"updated_at":"2016-09-30 13:34:19",
-"mac_addr":"48:3B:38:82:51:83",
-"last_seen":"2016-09-30 13:34:19",
-"ignore":"0"
-},
-{
-"id":"148",
-"name":"",
-"created_at":"2016-09-27 08:20:20",
-"updated_at":"2016-09-27 08:34:22",
-"mac_addr":"38:C9:86:C7:0C:31",
-"last_seen":"2016-09-27 08:34:22",
-"ignore":"0"
-},
-{
-"id":"149",
-"name":"",
-"created_at":"2016-09-29 07:25:21",
-"updated_at":"2016-09-30 13:34:19",
-"mac_addr":"B4:18:D1:6D:DC:2E",
-"last_seen":"2016-09-30 13:34:19",
-"ignore":"0"
-},
-{
-"id":"150",
-"name":"",
-"created_at":"2016-10-01 10:15:21",
-"updated_at":"2016-10-02 15:24:19",
-"mac_addr":"74:A5:28:CC:DC:79",
-"last_seen":"2016-10-02 15:24:19",
-"ignore":"0"
-},
-{
-"id":"151",
-"name":"",
-"created_at":"2016-10-03 08:05:19",
-"updated_at":"2016-10-04 12:49:21",
-"mac_addr":"C0:CC:F8:E3:08:0C",
-"last_seen":"2016-10-04 12:49:21",
-"ignore":"0"
-},
-{
-"id":"152",
-"name":"",
-"created_at":"2016-10-03 08:15:20",
-"updated_at":"2016-10-04 12:49:21",
-"mac_addr":"BC:4C:C4:BA:0C:06",
-"last_seen":"2016-10-04 12:49:21",
-"ignore":"0"
-},
-{
-"id":"153",
-"name":"",
-"created_at":"2016-10-03 08:40:20",
-"updated_at":"2016-10-04 12:49:21",
-"mac_addr":"B8:53:AC:29:6C:89",
-"last_seen":"2016-10-04 12:49:21",
-"ignore":"0"
-},
-{
-"id":"154",
-"name":"",
-"created_at":"2016-10-08 18:25:20",
-"updated_at":"2016-11-14 17:34:20",
-"mac_addr":"9C:04:EB:AC:1A:A7",
-"last_seen":"2016-11-14 17:34:19",
-"ignore":"0"
-},
-{
-"id":"155",
-"name":"",
-"created_at":"2016-10-09 14:50:20",
-"updated_at":"2016-10-10 18:59:19",
-"mac_addr":"DC:9B:9C:E1:9C:B3",
-"last_seen":"2016-10-10 18:59:19",
-"ignore":"0"
-},
-{
-"id":"156",
-"name":"",
-"created_at":"2016-10-13 12:40:20",
-"updated_at":"2016-11-17 11:11:20",
-"mac_addr":"60:F1:89:22:5E:8A",
-"last_seen":"2016-11-17 11:11:20",
-"ignore":"0"
-},
-{
-"id":"157",
-"name":"",
-"created_at":"2016-10-13 13:20:20",
-"updated_at":"2016-11-17 11:07:19",
-"mac_addr":"7C:7A:91:DB:0B:0F",
-"last_seen":"2016-11-17 11:07:19",
-"ignore":"0"
-},
-{
-"id":"158",
-"name":"",
-"created_at":"2016-10-19 16:20:22",
-"updated_at":"2016-10-19 16:29:19",
-"mac_addr":"AC:CF:85:50:9B:71",
-"last_seen":"2016-10-19 16:29:19",
-"ignore":"0"
-},
-{
-"id":"159",
-"name":"Eppe",
-"created_at":"2016-10-26 14:57:22",
-"updated_at":"2017-05-17 14:26:20",
-"mac_addr":"58:40:4E:53:6B:44",
-"last_seen":"2017-05-17 14:26:20",
-"ignore":"0"
-},
-{
-"id":"160",
-"name":"",
-"created_at":"2016-11-02 08:48:21",
-"updated_at":"2017-02-11 23:19:21",
-"mac_addr":"58:1F:28:7D:59:1C",
-"last_seen":"2017-02-11 23:19:21",
-"ignore":"0"
-},
-{
-"id":"161",
-"name":"",
-"created_at":"2016-11-03 08:05:19",
-"updated_at":"2016-11-17 11:07:19",
-"mac_addr":"E0:94:67:8D:42:DA",
-"last_seen":"2016-11-17 11:07:19",
-"ignore":"0"
-},
-{
-"id":"162",
-"name":"",
-"created_at":"2016-11-03 09:31:19",
-"updated_at":"2016-11-04 16:30:19",
-"mac_addr":"AC:FD:EC:3B:2B:63",
-"last_seen":"2016-11-04 16:30:19",
-"ignore":"0"
-},
-{
-"id":"163",
-"name":"",
-"created_at":"2016-11-06 20:27:19",
-"updated_at":"2016-11-06 23:03:19",
-"mac_addr":"F4:31:C3:76:77:88",
-"last_seen":"2016-11-06 23:03:19",
-"ignore":"0"
-},
-{
-"id":"164",
-"name":"",
-"created_at":"2016-11-07 08:45:23",
-"updated_at":"2016-11-19 12:48:19",
-"mac_addr":"2C:30:33:9F:85:BF",
-"last_seen":"2016-11-19 12:48:19",
-"ignore":"0"
-},
-{
-"id":"165",
-"name":"",
-"created_at":"2016-11-09 12:16:19",
-"updated_at":"2017-02-08 13:18:20",
-"mac_addr":"E0:5F:45:D0:0B:E4",
-"last_seen":"2017-02-08 13:18:20",
-"ignore":"0"
-},
-{
-"id":"166",
-"name":"",
-"created_at":"2016-11-20 00:28:22",
-"updated_at":"2016-11-20 00:53:19",
-"mac_addr":"28:A0:2B:32:A2:4C",
-"last_seen":"2016-11-20 00:53:19",
-"ignore":"0"
+"id":"79",
+"name":"Tablet Samsung ",
+"mac_addr":"E0:99:71:81:35:6B",
+"last_seen":"2017-06-07 11:24:58",
+"ignore":"t",
+"created_at":"2016-01-27 14:40:22",
+"updated_at":"2017-06-07 11:24:58.258558",
+"is_female":"",
+"original_name":"android-a38814201a955ca6"
 },
 {
 "id":"167",
 "name":"Tinka",
-"created_at":"2017-01-13 09:14:20",
-"updated_at":"2017-05-04 16:19:20",
 "mac_addr":"9C:F4:8E:A7:4B:87",
-"last_seen":"2017-05-04 16:19:20",
-"ignore":"0"
+"last_seen":"2017-06-07 10:51:38",
+"ignore":"f",
+"created_at":"2017-01-13 09:14:20",
+"updated_at":"2017-06-07 10:51:38.802533",
+"is_female":"",
+"original_name":"tinkas-iPhone"
 },
 {
-"id":"168",
-"name":"",
-"created_at":"2017-01-19 10:41:20",
-"updated_at":"2017-03-14 11:27:20",
-"mac_addr":"C8:1E:E7:E2:BC:1C",
-"last_seen":"2017-03-14 11:27:20",
-"ignore":"0"
+"id":"138",
+"name":"Tadde",
+"mac_addr":"24:F0:94:4D:78:FE",
+"last_seen":"2017-06-07 11:24:58",
+"ignore":"f",
+"created_at":"2016-09-17 15:20:19",
+"updated_at":"2017-06-07 11:24:58.261653",
+"is_female":"f",
+"original_name":"iPhonedilorenzo"
 },
 {
-"id":"169",
-"name":"",
-"created_at":"2017-01-19 11:27:20",
-"updated_at":"2017-03-14 11:24:20",
-"mac_addr":"88:1F:A1:15:FF:AA",
-"last_seen":"2017-03-14 11:24:20",
-"ignore":"0"
-},
-{
-"id":"170",
-"name":"",
-"created_at":"2017-01-23 11:14:20",
-"updated_at":"2017-05-04 16:19:20",
-"mac_addr":"38:2D:E8:CA:73:58",
-"last_seen":"2017-05-04 16:19:20",
-"ignore":"0"
-},
-{
-"id":"171",
-"name":"",
-"created_at":"2017-02-11 16:28:20",
-"updated_at":"2017-02-11 16:29:20",
-"mac_addr":"40:F3:08:20:9E:9B",
-"last_seen":"2017-02-11 16:29:19",
-"ignore":"0"
-},
-{
-"id":"172",
-"name":"",
-"created_at":"2017-02-11 17:18:20",
-"updated_at":"2017-02-11 22:06:21",
-"mac_addr":"BC:6C:21:A7:BE:5E",
-"last_seen":"2017-02-11 22:06:21",
-"ignore":"0"
-},
-{
-"id":"173",
-"name":"",
-"created_at":"2017-02-11 18:52:20",
-"updated_at":"2017-02-12 00:06:20",
-"mac_addr":"00:11:00:0A:DF:B0",
-"last_seen":"2017-02-12 00:06:20",
-"ignore":"0"
-},
-{
-"id":"174",
-"name":"",
-"created_at":"2017-02-11 19:01:20",
-"updated_at":"2017-02-16 21:54:19",
-"mac_addr":"04:1B:BA:5B:66:6A",
-"last_seen":"2017-02-16 21:54:19",
-"ignore":"0"
-},
-{
-"id":"175",
-"name":"",
-"created_at":"2017-02-11 19:06:19",
-"updated_at":"2017-02-11 19:54:20",
-"mac_addr":"2C:F0:A2:0F:D5:B5",
-"last_seen":"2017-02-11 19:54:20",
-"ignore":"0"
-},
-{
-"id":"176",
-"name":"",
-"created_at":"2017-02-11 19:26:20",
-"updated_at":"2017-02-11 23:10:20",
-"mac_addr":"74:A5:28:25:FA:77",
-"last_seen":"2017-02-11 23:10:20",
-"ignore":"0"
-},
-{
-"id":"177",
-"name":"",
-"created_at":"2017-02-11 19:27:20",
-"updated_at":"2017-02-11 23:15:20",
-"mac_addr":"4C:66:41:93:B8:65",
-"last_seen":"2017-02-11 23:15:20",
-"ignore":"0"
-},
-{
-"id":"178",
-"name":"",
-"created_at":"2017-02-11 19:31:20",
-"updated_at":"2017-02-11 22:25:21",
-"mac_addr":"70:EC:E4:50:28:97",
-"last_seen":"2017-02-11 22:25:21",
-"ignore":"0"
-},
-{
-"id":"179",
-"name":"",
-"created_at":"2017-02-11 19:31:20",
-"updated_at":"2017-02-11 23:10:20",
-"mac_addr":"2C:56:DC:A4:12:05",
-"last_seen":"2017-02-11 23:10:20",
-"ignore":"0"
-},
-{
-"id":"180",
-"name":"",
-"created_at":"2017-02-11 21:03:20",
-"updated_at":"2017-02-11 22:22:20",
-"mac_addr":"90:B9:31:04:0B:8C",
-"last_seen":"2017-02-11 22:22:20",
-"ignore":"0"
-},
-{
-"id":"181",
-"name":"",
-"created_at":"2017-02-11 21:50:20",
-"updated_at":"2017-02-11 21:59:20",
-"mac_addr":"2C:F0:A2:1A:03:06",
-"last_seen":"2017-02-11 21:59:20",
-"ignore":"0"
-},
-{
-"id":"182",
-"name":"",
-"created_at":"2017-02-11 22:20:20",
-"updated_at":"2017-02-11 22:37:20",
-"mac_addr":"70:28:8B:13:E9:E4",
-"last_seen":"2017-02-11 22:37:20",
-"ignore":"0"
-},
-{
-"id":"183",
-"name":"",
-"created_at":"2017-02-15 10:29:20",
-"updated_at":"2017-02-15 10:43:20",
-"mac_addr":"C8:1E:E7:D2:D8:46",
-"last_seen":"2017-02-15 10:43:19",
-"ignore":"0"
-},
-{
-"id":"184",
-"name":"",
-"created_at":"2017-02-15 12:23:20",
-"updated_at":"2017-03-15 11:22:21",
-"mac_addr":"F0:DC:E2:EA:46:BA",
-"last_seen":"2017-03-15 11:22:21",
-"ignore":"0"
+"id":"159",
+"name":"Eppe",
+"mac_addr":"58:40:4E:53:6B:44",
+"last_seen":"2017-06-07 11:24:58",
+"ignore":"f",
+"created_at":"2016-10-26 14:57:22",
+"updated_at":"2017-06-07 11:24:58.273814",
+"is_female":"",
+"original_name":"iPhonediGiuse2"
 },
 {
 "id":"185",
 "name":"",
-"created_at":"2017-02-15 17:53:20",
-"updated_at":"2017-05-17 14:23:20",
 "mac_addr":"04:48:9A:E8:D2:F1",
-"last_seen":"2017-05-17 14:23:20",
-"ignore":"0"
+"last_seen":"2017-05-31 14:45:09",
+"ignore":"f",
+"created_at":"2017-02-15 17:53:20",
+"updated_at":"2017-05-31 14:45:09.263347",
+"is_female":"",
+"original_name":"iPhone"
+},
+{
+"id":"139",
+"name":"",
+"mac_addr":"44:2A:60:F9:B7:FE",
+"last_seen":"2016-09-17 16:39:22",
+"ignore":"f",
+"created_at":"2016-09-17 16:15:20",
+"updated_at":"2016-09-17 16:39:22",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"140",
+"name":"",
+"mac_addr":"00:9A:CD:68:DF:44",
+"last_seen":"2016-09-19 10:14:19",
+"ignore":"f",
+"created_at":"2016-09-19 09:50:19",
+"updated_at":"2016-09-19 10:14:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"141",
+"name":"",
+"mac_addr":"AC:EE:9E:0F:C0:D9",
+"last_seen":"2017-03-03 14:57:29",
+"ignore":"f",
+"created_at":"2016-09-25 14:15:21",
+"updated_at":"2017-03-03 14:57:29",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"142",
+"name":"",
+"mac_addr":"7C:7A:91:9D:D6:A4",
+"last_seen":"2017-02-03 17:19:20",
+"ignore":"f",
+"created_at":"2016-09-25 15:30:20",
+"updated_at":"2017-02-03 17:19:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"143",
+"name":"",
+"mac_addr":"28:A0:2B:4F:A2:B0",
+"last_seen":"2016-09-30 13:44:20",
+"ignore":"f",
+"created_at":"2016-09-25 16:55:23",
+"updated_at":"2016-09-30 13:44:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"144",
+"name":"",
+"mac_addr":"2C:F0:A2:93:4D:29",
+"last_seen":"2016-09-30 13:34:19",
+"ignore":"f",
+"created_at":"2016-09-25 17:00:20",
+"updated_at":"2016-09-30 13:34:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"145",
+"name":"",
+"mac_addr":"B8:09:8A:E1:3E:E2",
+"last_seen":"2016-09-29 10:26:00",
+"ignore":"f",
+"created_at":"2016-09-26 08:20:19",
+"updated_at":"2016-09-29 10:26:00",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"146",
+"name":"",
+"mac_addr":"6C:72:E7:AD:F1:75",
+"last_seen":"2016-09-30 13:34:19",
+"ignore":"f",
+"created_at":"2016-09-26 08:20:19",
+"updated_at":"2016-09-30 13:34:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"147",
+"name":"",
+"mac_addr":"48:3B:38:82:51:83",
+"last_seen":"2016-09-30 13:34:19",
+"ignore":"f",
+"created_at":"2016-09-26 08:20:19",
+"updated_at":"2016-09-30 13:34:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"148",
+"name":"",
+"mac_addr":"38:C9:86:C7:0C:31",
+"last_seen":"2016-09-27 08:34:22",
+"ignore":"f",
+"created_at":"2016-09-27 08:20:20",
+"updated_at":"2016-09-27 08:34:22",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"149",
+"name":"",
+"mac_addr":"B4:18:D1:6D:DC:2E",
+"last_seen":"2016-09-30 13:34:19",
+"ignore":"f",
+"created_at":"2016-09-29 07:25:21",
+"updated_at":"2016-09-30 13:34:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"150",
+"name":"",
+"mac_addr":"74:A5:28:CC:DC:79",
+"last_seen":"2016-10-02 15:24:19",
+"ignore":"f",
+"created_at":"2016-10-01 10:15:21",
+"updated_at":"2016-10-02 15:24:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"151",
+"name":"",
+"mac_addr":"C0:CC:F8:E3:08:0C",
+"last_seen":"2016-10-04 12:49:21",
+"ignore":"f",
+"created_at":"2016-10-03 08:05:19",
+"updated_at":"2016-10-04 12:49:21",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"152",
+"name":"",
+"mac_addr":"BC:4C:C4:BA:0C:06",
+"last_seen":"2016-10-04 12:49:21",
+"ignore":"f",
+"created_at":"2016-10-03 08:15:20",
+"updated_at":"2016-10-04 12:49:21",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"153",
+"name":"",
+"mac_addr":"B8:53:AC:29:6C:89",
+"last_seen":"2016-10-04 12:49:21",
+"ignore":"f",
+"created_at":"2016-10-03 08:40:20",
+"updated_at":"2016-10-04 12:49:21",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"154",
+"name":"",
+"mac_addr":"9C:04:EB:AC:1A:A7",
+"last_seen":"2016-11-14 17:34:19",
+"ignore":"f",
+"created_at":"2016-10-08 18:25:20",
+"updated_at":"2016-11-14 17:34:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"155",
+"name":"",
+"mac_addr":"DC:9B:9C:E1:9C:B3",
+"last_seen":"2016-10-10 18:59:19",
+"ignore":"f",
+"created_at":"2016-10-09 14:50:20",
+"updated_at":"2016-10-10 18:59:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"156",
+"name":"",
+"mac_addr":"60:F1:89:22:5E:8A",
+"last_seen":"2016-11-17 11:11:20",
+"ignore":"f",
+"created_at":"2016-10-13 12:40:20",
+"updated_at":"2016-11-17 11:11:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"157",
+"name":"",
+"mac_addr":"7C:7A:91:DB:0B:0F",
+"last_seen":"2016-11-17 11:07:19",
+"ignore":"f",
+"created_at":"2016-10-13 13:20:20",
+"updated_at":"2016-11-17 11:07:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"158",
+"name":"",
+"mac_addr":"AC:CF:85:50:9B:71",
+"last_seen":"2016-10-19 16:29:19",
+"ignore":"f",
+"created_at":"2016-10-19 16:20:22",
+"updated_at":"2016-10-19 16:29:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"160",
+"name":"",
+"mac_addr":"58:1F:28:7D:59:1C",
+"last_seen":"2017-02-11 23:19:21",
+"ignore":"f",
+"created_at":"2016-11-02 08:48:21",
+"updated_at":"2017-02-11 23:19:21",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"161",
+"name":"",
+"mac_addr":"E0:94:67:8D:42:DA",
+"last_seen":"2016-11-17 11:07:19",
+"ignore":"f",
+"created_at":"2016-11-03 08:05:19",
+"updated_at":"2016-11-17 11:07:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"162",
+"name":"",
+"mac_addr":"AC:FD:EC:3B:2B:63",
+"last_seen":"2016-11-04 16:30:19",
+"ignore":"f",
+"created_at":"2016-11-03 09:31:19",
+"updated_at":"2016-11-04 16:30:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"163",
+"name":"",
+"mac_addr":"F4:31:C3:76:77:88",
+"last_seen":"2016-11-06 23:03:19",
+"ignore":"f",
+"created_at":"2016-11-06 20:27:19",
+"updated_at":"2016-11-06 23:03:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"164",
+"name":"",
+"mac_addr":"2C:30:33:9F:85:BF",
+"last_seen":"2016-11-19 12:48:19",
+"ignore":"f",
+"created_at":"2016-11-07 08:45:23",
+"updated_at":"2016-11-19 12:48:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"165",
+"name":"",
+"mac_addr":"E0:5F:45:D0:0B:E4",
+"last_seen":"2017-02-08 13:18:20",
+"ignore":"f",
+"created_at":"2016-11-09 12:16:19",
+"updated_at":"2017-02-08 13:18:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"166",
+"name":"",
+"mac_addr":"28:A0:2B:32:A2:4C",
+"last_seen":"2016-11-20 00:53:19",
+"ignore":"f",
+"created_at":"2016-11-20 00:28:22",
+"updated_at":"2016-11-20 00:53:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"168",
+"name":"",
+"mac_addr":"C8:1E:E7:E2:BC:1C",
+"last_seen":"2017-03-14 11:27:20",
+"ignore":"f",
+"created_at":"2017-01-19 10:41:20",
+"updated_at":"2017-03-14 11:27:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"169",
+"name":"",
+"mac_addr":"88:1F:A1:15:FF:AA",
+"last_seen":"2017-03-14 11:24:20",
+"ignore":"f",
+"created_at":"2017-01-19 11:27:20",
+"updated_at":"2017-03-14 11:24:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"170",
+"name":"",
+"mac_addr":"38:2D:E8:CA:73:58",
+"last_seen":"2017-05-04 16:19:20",
+"ignore":"f",
+"created_at":"2017-01-23 11:14:20",
+"updated_at":"2017-05-04 16:19:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"171",
+"name":"",
+"mac_addr":"40:F3:08:20:9E:9B",
+"last_seen":"2017-02-11 16:29:19",
+"ignore":"f",
+"created_at":"2017-02-11 16:28:20",
+"updated_at":"2017-02-11 16:29:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"172",
+"name":"",
+"mac_addr":"BC:6C:21:A7:BE:5E",
+"last_seen":"2017-02-11 22:06:21",
+"ignore":"f",
+"created_at":"2017-02-11 17:18:20",
+"updated_at":"2017-02-11 22:06:21",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"173",
+"name":"",
+"mac_addr":"00:11:00:0A:DF:B0",
+"last_seen":"2017-02-12 00:06:20",
+"ignore":"f",
+"created_at":"2017-02-11 18:52:20",
+"updated_at":"2017-02-12 00:06:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"174",
+"name":"",
+"mac_addr":"04:1B:BA:5B:66:6A",
+"last_seen":"2017-02-16 21:54:19",
+"ignore":"f",
+"created_at":"2017-02-11 19:01:20",
+"updated_at":"2017-02-16 21:54:19",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"175",
+"name":"",
+"mac_addr":"2C:F0:A2:0F:D5:B5",
+"last_seen":"2017-02-11 19:54:20",
+"ignore":"f",
+"created_at":"2017-02-11 19:06:19",
+"updated_at":"2017-02-11 19:54:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"176",
+"name":"",
+"mac_addr":"74:A5:28:25:FA:77",
+"last_seen":"2017-02-11 23:10:20",
+"ignore":"f",
+"created_at":"2017-02-11 19:26:20",
+"updated_at":"2017-02-11 23:10:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"177",
+"name":"",
+"mac_addr":"4C:66:41:93:B8:65",
+"last_seen":"2017-02-11 23:15:20",
+"ignore":"f",
+"created_at":"2017-02-11 19:27:20",
+"updated_at":"2017-02-11 23:15:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"178",
+"name":"",
+"mac_addr":"70:EC:E4:50:28:97",
+"last_seen":"2017-02-11 22:25:21",
+"ignore":"f",
+"created_at":"2017-02-11 19:31:20",
+"updated_at":"2017-02-11 22:25:21",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"179",
+"name":"",
+"mac_addr":"2C:56:DC:A4:12:05",
+"last_seen":"2017-02-11 23:10:20",
+"ignore":"f",
+"created_at":"2017-02-11 19:31:20",
+"updated_at":"2017-02-11 23:10:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"180",
+"name":"",
+"mac_addr":"90:B9:31:04:0B:8C",
+"last_seen":"2017-02-11 22:22:20",
+"ignore":"f",
+"created_at":"2017-02-11 21:03:20",
+"updated_at":"2017-02-11 22:22:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"181",
+"name":"",
+"mac_addr":"2C:F0:A2:1A:03:06",
+"last_seen":"2017-02-11 21:59:20",
+"ignore":"f",
+"created_at":"2017-02-11 21:50:20",
+"updated_at":"2017-02-11 21:59:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"182",
+"name":"",
+"mac_addr":"70:28:8B:13:E9:E4",
+"last_seen":"2017-02-11 22:37:20",
+"ignore":"f",
+"created_at":"2017-02-11 22:20:20",
+"updated_at":"2017-02-11 22:37:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"183",
+"name":"",
+"mac_addr":"C8:1E:E7:D2:D8:46",
+"last_seen":"2017-02-15 10:43:19",
+"ignore":"f",
+"created_at":"2017-02-15 10:29:20",
+"updated_at":"2017-02-15 10:43:20",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"184",
+"name":"",
+"mac_addr":"F0:DC:E2:EA:46:BA",
+"last_seen":"2017-03-15 11:22:21",
+"ignore":"f",
+"created_at":"2017-02-15 12:23:20",
+"updated_at":"2017-03-15 11:22:21",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"186",
 "name":"",
-"created_at":"2017-02-24 09:39:30",
-"updated_at":"2017-03-01 13:58:30",
 "mac_addr":"08:FD:0E:62:CF:B8",
 "last_seen":"2017-03-01 13:58:30",
-"ignore":"0"
-},
-{
-"id":"187",
-"name":"Alison",
-"created_at":"2017-03-01 10:14:29",
-"updated_at":"2017-05-17 14:26:20",
-"mac_addr":"E0:B5:2D:E8:5A:53",
-"last_seen":"2017-05-17 14:26:20",
-"ignore":"0"
-},
-{
-"id":"188",
-"name":"",
-"created_at":"2017-03-01 13:56:30",
-"updated_at":"2017-05-17 14:13:20",
-"mac_addr":"48:BF:6B:D3:74:36",
-"last_seen":"2017-05-17 14:13:20",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2017-02-24 09:39:30",
+"updated_at":"2017-03-01 13:58:30",
+"is_female":"",
+"original_name":""
 },
 {
 "id":"189",
 "name":"",
-"created_at":"2017-03-08 12:14:20",
-"updated_at":"2017-03-08 14:32:21",
 "mac_addr":"64:66:B3:1D:CD:C1",
 "last_seen":"2017-03-08 14:32:21",
-"ignore":"0"
+"ignore":"f",
+"created_at":"2017-03-08 12:14:20",
+"updated_at":"2017-03-08 14:32:21",
+"is_female":"",
+"original_name":""
+},
+{
+"id":"188",
+"name":"",
+"mac_addr":"48:BF:6B:D3:74:36",
+"last_seen":"2017-05-31 15:58:31",
+"ignore":"f",
+"created_at":"2017-03-01 13:56:30",
+"updated_at":"2017-05-31 15:58:31.515674",
+"is_female":"",
+"original_name":"Air-di-Cosimo"
+},
+{
+"id":"187",
+"name":"Alison",
+"mac_addr":"E0:B5:2D:E8:5A:53",
+"last_seen":"2017-05-31 15:58:31",
+"ignore":"f",
+"created_at":"2017-03-01 10:14:29",
+"updated_at":"2017-05-31 15:58:31.541078",
+"is_female":"",
+"original_name":"Ali-Matteini"
 }
 ]
 }
