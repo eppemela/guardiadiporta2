@@ -5,9 +5,9 @@ class StationsController < ApplicationController
   # GET /stations.json
   def index
     @stations = if params[:term]
-      Station.full_text_search(params[:term]).order(created_at: :desc).page
+      Station.full_text_search(params[:term]).order(last_seen: :desc).page
     else
-      Station.order(created_at: :desc).page params[:page]
+      Station.order(last_seen: :desc).page params[:page]
     end
   end
 
