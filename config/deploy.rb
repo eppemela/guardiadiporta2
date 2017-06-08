@@ -23,6 +23,7 @@ set :rbenv_type, :user # or :system, depends on your rbenv setup
 set :rbenv_ruby, File.read('.ruby-version').strip
 set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
 set :rbenv_roles, :all # default value
+set :bundle_binstubs, nil
 
 ## Defaults:
 # set :scm,           :git
@@ -33,7 +34,7 @@ set :rbenv_roles, :all # default value
 
 ## Linked Files & Directories (Default None):
 set :linked_files, %w{config/database.yml}
-set :linked_dirs,  %w{bin log tmp/pids tmp/cache sockets vendor/bundle public/system}
+set :linked_dirs,  %w{log tmp/pids tmp/cache sockets vendor/bundle public/system}
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
