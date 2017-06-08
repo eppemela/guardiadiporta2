@@ -10,7 +10,11 @@ namespace :stations do
     date_now =  DateTime.now.strftime('%Q')
     router_url= "192.168.1.1"
 
-    browser = Watir::Browser.new
+    Selenium::WebDriver::Chrome.path = '/usr/bin/chromium-browser'
+    driver = Selenium::WebDriver.for :chrome
+    browser = Watir::Browser.new driver
+
+    #browser = Watir::Browser.new
     begin
       browser.goto "http://#{router_url}/overview.html"
       browser.div(class: 'columnContent').wait_until_present
