@@ -45,16 +45,16 @@ gem 'whenever', :require => false
 
 group :development, :test do
   gem 'pry-rails'
-  # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  gem 'capistrano', '~> 3.1'
-  gem 'capistrano-rbenv', '~> 2.0'
-  gem 'capistrano-rails',   require: false
+  gem 'capistrano', require: false
+  gem 'capistrano-git-copy', require: false
+  gem 'capistrano-rbenv', require: false
   gem 'capistrano-bundler', require: false
+  gem 'capistrano-rails',   require: false
   gem 'capistrano3-puma',   require: false
   gem 'airbrussh', require: false
-  gem 'capistrano-rails-console'
+  gem 'capistrano-rails-console', require: false
   gem 'listen'
 end
 
