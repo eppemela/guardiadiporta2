@@ -20,7 +20,7 @@ namespace :stations do
       cookies = browser.cookies.to_a
       session_id = cookies[1][:value]
       url_to_fetch = "http://#{router_url}/data/overview.json?_=#{date_now}&csrf_token=#{csrf_token}"
-      browser.quit
+
 
     rescue Net::ReadTimeout
       abort "There was an error connecting to the router..."
@@ -67,5 +67,6 @@ namespace :stations do
         end
       end
     end
+    browser.quit
   end
 end
