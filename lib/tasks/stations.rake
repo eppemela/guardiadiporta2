@@ -18,7 +18,7 @@ namespace :stations do
       browser.div(class: 'columnContent').wait_until_present
       csrf_token = browser.html.match("\'(.*?)\'")[0].tr("'","")
       cookies = browser.cookies.to_a
-      session_id = cookies[0][:value]
+      session_id = cookies[1][:value]
       url_to_fetch = "http://#{router_url}/data/overview.json?_=#{date_now}&csrf_token=#{csrf_token}"
       browser.quit
 
