@@ -10,9 +10,7 @@ namespace :stations do
     date_now =  DateTime.now.strftime('%Q')
     router_url= "192.168.1.1"
 
-    Selenium::WebDriver::Chrome.path = '/usr/bin/chromium-browser'
-    driver = Selenium::WebDriver.for :chrome
-    browser = Watir::Browser.new driver
+    browser = Watir::Browser.new :firefox
 
     #browser = Watir::Browser.new
     begin
