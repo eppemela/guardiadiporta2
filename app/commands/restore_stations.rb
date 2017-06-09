@@ -48,9 +48,9 @@ class RestoreStations
 
   def convert_boolean(value)
     case value
-    when "1"
+    when "t"
       then return true
-    when "0"
+    when "f"
       then return false
     end
   end
