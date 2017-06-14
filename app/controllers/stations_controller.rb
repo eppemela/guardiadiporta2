@@ -18,7 +18,7 @@ class StationsController < ApplicationController
     ActiveRecord::Base.default_timezone = :utc
     @mta = @station.sessions.group_by_hour_of_day(:created_at, format: "%l %P").count
     @this_week_entrances = @station.sessions
-      .group_by_day(:created_at, format: "%d/%m", range: Date.today.at_beginning_of_week..Time.now).count.sum{|k,v| v}
+      .group_by_day(:created_at, format: "%d/%m", range: Date.today.at_beginning_of_week..Time.now).count
     @last_month_entrances = @station.sessions
       .group_by_month(:created_at, format: "%B/%y", range: Date.today.at_beginning_of_month..Time.now).count.sum{|k,v| v}
     @last_year_entrances = @station.sessions

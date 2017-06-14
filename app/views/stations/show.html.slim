@@ -81,7 +81,7 @@
       .card-content.cyan.darken-2.white-text
         p.card-stats-title
           | Entrances
-        h4.card-stats-number= @this_week_entrances
+        h4.card-stats-number= @this_week_entrances.sum{|k,v| v}
         p.card-stats-compare
           span.green-text.text-lighten-5 this week
   .col.s12.m6.l10
