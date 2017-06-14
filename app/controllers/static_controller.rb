@@ -4,7 +4,7 @@ class StaticController < ApplicationController
 
     unless Session.opened_today.empty?
       first_in_hash = {
-        name:  Session.opened_today.first.station.name,
+        name:  Session.opened_today.first.station.get_name_or_mac_addr,
         arrival_time: I18n.l(Session.opened_today.first.start, format: :time_short)
       }
     else
@@ -18,12 +18,12 @@ class StaticController < ApplicationController
     unless Session.closed.opened_today.empty?
       unless Station.present.include?(Session.closed.opened_today.last.station)
         last_out_hash = {
-          name: Session.closed.opened_today.last.station.name,
+          name: Session.closed.opened_today.last.station.get_name_or_mac_addr,
           leaving_time: I18n.l(Session.closed.opened_today.last.end, format: :time_short)
         }
       else
         last_out_hash = {
-          name: Session.closed.opened_today.last(2).first.station.name,
+          name: Session.closed.opened_today.last(2).first.station.get_name_or_mac_addr,
           leaving_time: I18n.l(Session.closed.opened_today.last.end, format: :time_short)
         }
       end
