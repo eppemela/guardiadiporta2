@@ -54,3 +54,6 @@
                 = humanize_seconds(station[:total_time])
             = link_to station_path(station[:station]), class: "secondary-content" 
               i.material-icons exit_to_app
+- else
+  .row
+    h5.flight-card-title.center-align.teal-text.darken-4 There is nobody around
