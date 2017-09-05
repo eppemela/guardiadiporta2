@@ -9,7 +9,7 @@
 set :stage, :production
 set :branch, "master"
 
-server 'officinenora.ddns.net', user: 'pi', roles: %w{app db web}
+server '192.168.0.100', user: 'pi', roles: %w{app db web}
 
 
 # role-based syntax
