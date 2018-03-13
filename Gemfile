@@ -42,6 +42,7 @@ gem 'pg_search'
 gem 'simple_form'
 gem 'materialize-form'
 gem 'whenever', :require => false
+gem 'nokogiri', '~> 1.8.1'
 
 group :development, :test do
   gem 'pry-rails'
